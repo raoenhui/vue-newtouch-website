@@ -4,6 +4,9 @@ import Hello from '@/components/Hello'
 import Main from '@/components/Main'
 import Cart from '@/components/Cart'
 import About from '@/components/About'
+import Program from '@/components/Program'
+import Scheme from '@/components/Program/Scheme'
+import Financial from '@/components/Program/Financial'
 
 Vue.use(Router)
 
@@ -13,6 +16,21 @@ export default new Router({
       path: '/',
       name: 'Main',
       component: Main
+    },
+    {
+      path: '/program',
+      name: 'Program',
+      component: Program,
+      children: [
+        {
+          path: 'scheme',
+          component: Scheme
+        },
+        {
+          path: 'financial',
+          component: Financial
+        }
+      ]
     },
     {
       path: '/help',
