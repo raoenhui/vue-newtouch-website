@@ -4,10 +4,8 @@
 
       <div class="header-con">
         <div class="header-nav clearfix">
-          <img src="./assets/logo.png">
-          <div class="header-nav-line">
-            <router-link to="/">行业解决方案</router-link>
-          </div>
+          <router-link to="/"><img src="./assets/logo.png"></router-link>
+          <div class="header-nav-line"><router-link to="/program">行业解决方案</router-link></div>
           <div class="header-nav-line"><a href="http://fic.newtouch.com">金融云</a></div>
           <div class="header-nav-line"><a href="http://mc.newtouch.com/#/-1">医疗云</a></div>
           <div class="header-nav-line"><a href="http://ecc.newtouch.com/index">企业云</a></div>
