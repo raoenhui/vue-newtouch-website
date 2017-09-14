@@ -31,10 +31,9 @@
   </div>
 </template>
 
+
 <script>
-  //  import './css/App.css'
-  // import bootstrap;
-  // import jquery
+
   import jQuery from "jquery";
   import bootstrap from "bootstrap";
   export default {
