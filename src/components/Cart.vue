@@ -8,13 +8,13 @@
       </div>
   </div>
 
-  <div class="main-content">
+  <div class="main-content clearfix">
 
-      <div class="silder-content">
+      <div class="silder-content lf">
           <h4 class="silder-title">新致商城</h4>
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
-              <div class="panel-heading active" role="tab" id="headingOne">
+              <div class="panel-heading active" role="tab" id="headingOne" v-on:click="headtitClick">
                 <h4 class="panel-title">
                   <a role="button" data-toggle="collapse" class="active" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     金融云
@@ -24,8 +24,8 @@
               <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body silder-List">
                     <ul>
-                      <li>掌E保</li>
-                      <li>财险核心系统</li>
+                        <router-link to="/cart/palm"><li>掌E保</li></router-link>
+                        <router-link to="/cart/system"><li>财险核心系统</li></router-link>
                       <li>电子商务</li>
                       <li>统一人员管理系统</li>
                       <li>CRM客户管理平台</li>
@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
+              <div class="panel-heading" role="tab" id="headingTwo"  v-on:click="headtitClick">
                 <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     医疗云
@@ -47,8 +47,8 @@
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body silder-List">
                   <ul>
-                    <li>掌E保</li>
-                    <li>财险核心系统</li>
+                    <router-link to="/cart/image"><li>影像云</li></router-link>
+                    <router-link to="/cart/his"><li>云HIS</li></router-link>
                     <li>电子商务</li>
                     <li>统一人员管理系统</li>
                     <li>CRM客户管理平台</li>
@@ -60,7 +60,7 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
+              <div class="panel-heading" role="tab" id="headingThree"  v-on:click="headtitClick">
                 <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     企业云
@@ -70,21 +70,17 @@
               <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                 <div class="panel-body silder-List">
                   <ul>
-                    <li>掌E保</li>
-                    <li>财险核心系统</li>
-                    <li>电子商务</li>
-                    <li>统一人员管理系统</li>
-                    <li>CRM客户管理平台</li>
-                    <li>大资管协同平台</li>
-                    <li>贵金属综合投资平台</li>
-                    <li>选股学习与交流平台</li>
+                    <router-link to="/cart/crm"><li>新致云CRM</li></router-link>
+                    <router-link to="/cart/pm"><li>新致云PM</li></router-link>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
       </div>
-      <div class="text-content"></div>
+      <div class="text-content lf">
+         <router-view></router-view>
+      </div>
   </div>
 
 </div>
@@ -97,58 +93,21 @@ export default {
     return {
       msg: ''
     }
-  }
+  },
+  // 在 `methods` 对象中定义方法
+  methods: {
+    headtitClick: function (event) {
+      $(event.target).parents('.silder-content').find('.panel-heading').removeClass('active');
+      $(event.target).parents(".panel-heading").addClass('active');
+    }
+  },
 }
-
-//$('#accordion').collapse({
-//  toggle: false
-//})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  /*公共样式*/
-  html {
-    background-color: #f0f3f4;
-  }
-
-  body {
-    font-family: "微软雅黑","Microsoft YaHei","Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1.42857143;
-    color: #58666e;
-    background-color: transparent;
-  }
-
-  *:focus {
-    outline: 0 !important;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  a {
-    color: #061325;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  a:hover,
-  a:focus {
-    color: #141719;
-    text-decoration: none;
-  }
-
-  ul{
-    margin: 0px;
-    padding: 0px;
-  }
-
-  li{
-    list-style: none;
+  .total-container h4{
+    margin: 0 !important;
   }
 
   .panel-heading{
@@ -161,10 +120,6 @@ export default {
 
   .panel-heading.active{
     border-left: #06497E 5px solid;
-  }
-
-  label {
-    font-weight: normal;
   }
 
   .total-container{
@@ -227,5 +182,7 @@ export default {
       padding-left: 15px;
       padding-bottom:15px
   }
-
+  .text-content{
+    width: calc(100% - 280px);
+  }
 </style>

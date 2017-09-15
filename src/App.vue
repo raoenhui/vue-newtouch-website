@@ -5,7 +5,7 @@
       <div class="header-con">
         <div class="header-nav clearfix">
           <router-link to="/"><img src="./assets/logo.png"></router-link>
-          <router-link to="/program/scheme"><div class="header-nav-line">行业解决方案</div></router-link>
+          <router-link to="/program"><div class="header-nav-line">行业解决方案</div></router-link>
           <div class="header-nav-line"><a href="http://fic.newtouch.com">金融云</a></div>
           <div class="header-nav-line"><a href="http://mc.newtouch.com/#/-1">医疗云</a></div>
           <div class="header-nav-line"><a href="http://ecc.newtouch.com/index">企业云</a></div>
@@ -71,7 +71,9 @@
   }
 </script>
 
-<style>
+<style scoped>
+  /*公共css*/
+  @import './css/app.css';
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -81,41 +83,6 @@
     -webkit-text-size-adjust: 100%;
   }
 
-  .clearfix:after {
-    display: block;
-    clear: both;
-    content: "";
-    visibility: hidden;
-    height: 0
-  }
-
-  .clearfix {
-    zoom: 1
-  }
-  .content{
-    width: 1200px;
-    margin: 0 auto;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  a:link {
-    text-decoration: none;
-  }
-
-  a:visited {
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
-  a:active {
-    text-decoration: none;
-  }
 
   .header {
     background: #022330;
