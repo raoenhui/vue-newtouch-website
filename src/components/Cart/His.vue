@@ -1,6 +1,6 @@
 <template>
   <div class="image">
-    plam
+    plamwwww
   </div>
 </template>
 
