@@ -20,6 +20,12 @@ import Crm from '@/components/Cart/Crm'
 import His from '@/components/Cart/His'
 import Image from '@/components/Cart/Image'
 import Pm from '@/components/Cart/Pm'
+import BigSystem from '@/components/Cart/BigSystem'
+import ClientSystem from '@/components/Cart/ClientSystem'
+import ECommerce from '@/components/Cart/ECommerce'
+import ExchangeSystem from '@/components/Cart/ExchangeSystem'
+import InventSystem from '@/components/Cart/InventSystem'
+import UserSystem from '@/components/Cart/UserSystem'
 import Join from '@/components/About/Join'
 import News from '@/components/About/News'
 import Newtouch from '@/components/About/Newtouch'
@@ -119,6 +125,30 @@ export default new Router({
         {
           path: 'pm',
           component: Pm
+        },
+        {
+          path: 'bigSystem',
+          component: BigSystem
+        },
+        {
+          path: 'clientSystem',
+          component: ClientSystem
+        },
+        {
+          path: 'eCommerce',
+          component: ECommerce
+        },
+        {
+          path: 'exchangeSystem',
+          component: ExchangeSystem
+        },
+        {
+          path: 'inventSystem',
+          component: InventSystem
+        },
+        {
+          path: 'userSystem',
+          component: UserSystem
         }
       ]
     },

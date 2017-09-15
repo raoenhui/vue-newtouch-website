@@ -14,7 +14,7 @@
 
       <div class="about-nav">
         <ul role="tablist">
-          <router-link to="/about/newtouch"  @click="showBgFun"><div class="about-nav-line" @click="showBgFun('newtouch')">日新以致远</div></router-link>
+          <router-link to="/about/newtouch"><div class="about-nav-line" @click="showBgFun('newtouch')">日新以致远</div></router-link>
           <router-link to="/about/news"><div class="about-nav-line" @click="showBgFun('news')">企业动态</div></router-link>
           <router-link to="/about/support"><div class="about-nav-line" @click="showBgFun('support')">公益支持</div></router-link>
           <router-link to="/about/contact"><div class="about-nav-line" @click="showBgFun('contact')">联系我们</div></router-link>
@@ -38,7 +38,7 @@
     data () {
       return {
         //背景图片
-        srcBg: ''
+        srcBg: require('../assets/about/newtouch_bg.png')
       }
     },
     methods: {
@@ -108,8 +108,6 @@
   .tab-pane ul li a{
     color: #000;
   }
-
-
 
 
 </style>
