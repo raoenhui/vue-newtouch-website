@@ -133,12 +133,12 @@ export default {
       background-color: #F1F1F1;
   }
 
-  .page-local{
+  .header-content .page-local{
       width: 1200px;
       margin: 0px auto;
   }
 
-  .page-local a{
+  .header-content .page-local a{
     padding-right: 10px;
   }
 
