@@ -1,6 +1,5 @@
 <template>
   <div class="mian">
-
       <div id="carousel1" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for slides -->

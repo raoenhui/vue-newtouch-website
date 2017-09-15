@@ -1,2 +1,40 @@
-.program-nav{}
-.program-nav .program-nav-line{}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+.clearfix {
+  zoom: 1
+}
+.lf{
+  float: left;
+}
+.rf{
+  float: right;
+}
+.content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a,a:link,a:visited ,a:hover,a:active{
+  text-decoration: none !important;
+}
+
+
+/**:focus {*/
+  /*outline: 0 !important;*/
+/*}*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
