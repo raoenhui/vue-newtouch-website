@@ -7,6 +7,12 @@ import About from '@/components/About'
 import Program from '@/components/Program'
 import Scheme from '@/components/Program/Scheme'
 import Financial from '@/components/Program/Financial'
+import Palm from '@/components/Cart/Palm'
+import System from '@/components/Cart/System'
+import Crm from '@/components/Cart/Image'
+import His from '@/components/Cart/His'
+import Image from '@/components/Cart/Image'
+import Pm from '@/components/Cart/Pm'
 
 Vue.use(Router)
 
@@ -22,6 +28,10 @@ export default new Router({
       name: 'Program',
       component: Program,
       children: [
+        {
+          path: '/',
+          component: Scheme
+        },
         {
           path: 'scheme',
           component: Scheme
@@ -40,7 +50,37 @@ export default new Router({
     {
       path: '/cart',
       name: 'Cart',
-      component: Cart
+      component: Cart,
+      children: [
+        {
+          path: '/',
+          component: Palm
+        },
+        {
+          path: 'palm',
+          component: Palm
+        },
+        {
+          path: 'system',
+          component: System
+        },
+        {
+          path: 'crm',
+          component: Crm
+        },
+        {
+          path: 'his',
+          component: His
+        },
+        {
+          path: 'image',
+          component: Image
+        },
+        {
+          path: 'pm',
+          component: Pm
+        }
+      ]
     },
     {
       path: '/about',
