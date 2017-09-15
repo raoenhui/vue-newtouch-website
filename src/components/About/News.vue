@@ -62,37 +62,38 @@
 <style scoped>
   /*企业动态*/
 
-  .news-content{
+  .aboutNews .news-content{
     background: #E0E0E0;
     padding-bottom: 30px;
   }
 
-  .panel{
+  .aboutNews .panel{
     margin-top: 30px;
     margin-bottom: 0px;
     border-radius: 0px;
     padding: 20px 10px;
   }
 
-  .news.active{
+  .aboutNews .news:hover{
+    cursor: pointer;
     border:solid 1px #4178BE;
   }
 
-  .panel-body h4{
+  .aboutNews .panel-body h4{
     margin-top: 0px;
   }
 
-  .panel-body span{
+  .aboutNews .panel-body span{
     color:#9f9f9f;
   }
 
-  .month_day{
+  .aboutNews .month_day{
     font-size: 2.7em;
     width: 100%;
     text-align:right ;
   }
 
-  .year{
+  .aboutNews .year{
     font-size: 1.3em;
     width:100%;
     text-align: right;

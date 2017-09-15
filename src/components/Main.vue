@@ -22,11 +22,11 @@
       </div>
 
       <!-- Controls -->
-      <a class="left carousel-control" href="javascript:viod(0)" role="button" data-slide="prev" v-on:click="prev1">
+      <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev" v-on:click="prev1">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="javascript:viod(0)"  role="button" data-slide="next" v-on:click="next1">
+      <a class="right carousel-control" href="javascript:void(0)"  role="button" data-slide="next" v-on:click="next1">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -44,16 +44,9 @@
         </div>
         <div class="item">
           <div class="carousel-promotion">
-            <img src="../assets/promotion1.png" alt="...">
-            <img src="../assets/promotion2.png" alt="...">
-            <img src="../assets/promotion3.png" alt="...">
-          </div>
-        </div>
-        <div class="item">
-          <div class="carousel-promotion">
-            <img src="../assets/promotion1.png" alt="...">
-            <img src="../assets/promotion2.png" alt="...">
-            <img src="../assets/promotion3.png" alt="...">
+            <img src="../assets/promotion4.png" alt="...">
+            <img src="../assets/promotion5.png" alt="...">
+            <img src="../assets/promotion6.png" alt="...">
           </div>
         </div>
       </div>
