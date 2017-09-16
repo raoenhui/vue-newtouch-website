@@ -1,6 +1,7 @@
 <template>
   <div class="aboutContact">
-      <div class="row contentMin">
+    <div class="contentMin">
+      <div class="row">
         <div class="col-md-6">
           <div class="aboutContact-addressDiv">
             <div class="aboutContact-addressDiv-link"><h4 style="font-weight: 600;">上海新致软件股份有限公司</h4></div>
@@ -15,6 +16,7 @@
           <img src="../../assets/about/contact_map.png"/>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
