@@ -44,6 +44,7 @@
 <style scoped>
   .scheme_list{
     width: 100%;
+    margin-top: 20px;
   }
 
   .scheme_list .scheme{
