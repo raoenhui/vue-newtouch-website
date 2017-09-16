@@ -30,7 +30,8 @@
 
         </div>
         <div class="tab-pane-con-tab">
-          <div class="row contentMin">
+          <div class="contentMin">
+            <div class="row ">
             <div class="col-md-6">
               <div class="aboutNewtouch-addressDiv">
                 <div class="aboutNewtouch-addressDiv-tit">|&nbsp;&nbsp;公司总部&nbsp;&nbsp;|</div>
@@ -67,6 +68,7 @@
             <div class="col-md-6">
               <img src="../../assets/about/map.png"/>
             </div>
+          </div>
           </div>
         </div>
         <div class="tab-pane-con-tab">
