@@ -124,6 +124,11 @@
     padding: 35px 35px 25px 60px;
   }
 
+  .financial .scheme:hover{
+    cursor: pointer;
+    border:solid 1px #4178BE;
+  }
+
   .financial h3{
     margin-bottom: 20px;
   }
