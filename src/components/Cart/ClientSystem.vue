@@ -1,16 +1,49 @@
 <template>
-  <div class="cartClientSystem">
-    plam
-  </div>
+  <Financial :mainObj="mainObj"  :detailObj="detailObj" />
 </template>
 
 <script>
+  import Financial from "../Common/Cart/Financial.vue"
+  const Name="clientSystem"
   export default {
-    name: 'clientSystem'
+    name: Name,
+    data () {
+      return {
+        mainObj:{
+          title:'CRM客户管理平台',
+          intro:'移动销售支持CRM系统运用移动新技术，实现业务员任务自动推送，主管强化辅导的管理模式。高效整合客户资源获取、洞见、配置、利用、维护、再生等一整套客户关系管理流程，实现“以客户为中心，以任务为主线”的驱动式活动管理。建立行销经营的标准模式，推动可量化的工作任务。',
+          icon:require(`../../assets/cart/${Name}_icon.png`)
+        },
+        detailObj:{
+          intro:'移动销售支持CRM系统运用移动新技术，实现业务员任务自动推送，主管强化辅导的管理模式。高效整合客户资源获取、洞见、配置、利用、维护、再生等一整套客户关系管理流程，实现“以客户为中心，以任务为主线”的驱动式活动管理。建立行销经营的标准模式，推动可量化的工作任务。',
+          items:[{
+            title:"产品功能",
+            type:'list',
+            data:['存量客户洞见和客户细分。',
+              '客户关系任务的生产。',
+              '服务作业，任务分配给一线队伍，按照标准作业规范完成任务。','销售作业，最后是按照基本法的考核，通过以上的一系列的作业流程。','兑现个人绩效。']
+          },{
+            title:"产品意义",
+            type:'list',
+            data:['增加客户黏度',
+              '发掘客户需求',
+              '产生加保销售机会','产生转介绍销售机会',
+              '碎片化业务有效融合',
+              '快速整合渠道数据',
+             ' 解决场景化/高频化相关问题',
+              '提升高可用性能',
+             ' 提升易维护性']
+          },{
+            title:"上云优势",
+            type:'list',
+            data:['统一存储：收集从不同渠道获得的大量潜在客户与客户的信息，并且格式统一',
+              '精准营销：分析，推演用户习惯与偏好，助力企业实现个性化服务与精准营销。',
+              '数据分析：通过大数据获取高价值客户特征后，企业将依此制定出更加满足需求的营销方案与产品，增强客户的忠诚度。','自动埋码：全方位获取用户属性及行为数据，包括客户来源渠道、属性、地域、行为、阅读量、传播量等数据']
+          }]
+        }
+      }
+    },
+    components:{Financial}
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

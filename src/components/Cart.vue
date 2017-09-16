@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="main-content clearfix">
+    <div class="main-content clearfix cart">
 
       <div class="silder-content lf">
         <h4 class="silder-title">新致商城</h4>
@@ -28,25 +28,25 @@
                   <router-link to="/cart/palm">
                     <li>掌E保</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/system">
                     <li>财险核心系统</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/eCommerce">
                     <li>电子商务</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/userSystem">
                     <li>统一人员管理系统</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/clientSystem">
                     <li>CRM客户管理平台</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/bigSystem">
                     <li>大资管协同平台</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/inventSystem">
                     <li>贵金属综合投资平台</li>
                   </router-link>
-                  <router-link to="/cart/palm">
+                  <router-link to="/cart/exchangeSystem">
                     <li>选股学习与交流平台</li>
                   </router-link>
                 </ul>
@@ -212,5 +212,8 @@
 
   .text-content {
     width: calc(100% - 280px);
+  }
+  .cart .panel-body{
+    padding: 0px;
   }
 </style>
