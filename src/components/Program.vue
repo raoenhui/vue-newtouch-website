@@ -164,6 +164,7 @@
     border-bottom: #ccc 1px solid;
     border-left: #ccc 1px solid;
     border-right: #ccc 1px solid;
+    color:#022330;
   }
 
   .program .program-nav .program-nav-line.program-nav-headtit {
