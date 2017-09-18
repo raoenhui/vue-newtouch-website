@@ -2,7 +2,7 @@
   <div class="image">
     <div class="goods_message">
       <div class="row">
-        <div class="col-md-4 financial_icon"><img src="../../assets/cart/financial_icon.png" /></div>
+        <div class="col-md-4 financial_icon"><img src="../../assets/cart/enterprise_icon2.png" /></div>
         <div class="col-md-8 financial_msg">
           <h3>新致企业云项目管理系统</h3>
           <p>掌E保是一款用于智能手机及平板电脑上的app应用产品，主要面向保险营销员，经纪人或营业代理。</p>

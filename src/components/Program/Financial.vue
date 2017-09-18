@@ -103,6 +103,8 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+  /*    */
   a:hover{
     border:#0E5888 1px solid;
   }
@@ -127,6 +129,7 @@
   .financial .scheme:hover{
     cursor: pointer;
     border:solid 1px #4178BE;
+    box-shadow: 0 0 20px #4178BE;
   }
 
   .financial h3{
