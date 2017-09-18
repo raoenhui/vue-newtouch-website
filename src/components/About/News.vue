@@ -2,8 +2,8 @@
   <div class="aboutNews">
     <div class="clearfix news-content">
       <div class="content" style="width:1030px">
-        <router-link :to="{ name: 'newDetail', params: { id: 123 }}" v-for="i in [1,2,3]">
-          <div class="panel panel-default news active">
+        <router-link :to="{ name: 'newDetail', params: { id: 123 }}" v-for="i in [1,2,3]" :key="i">
+          <div class="panel panel-default news active"  >
             <div class="panel-body">
               <div class="col-md-9">
                 <h4>【务副省长秦如培来访纪实】 云算天下 做 数字经济产业发展的中坚力量</h4>
