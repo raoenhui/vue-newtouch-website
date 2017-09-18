@@ -169,7 +169,7 @@
   }
 
   .total-container {
-    background-color: #fff;
+    background-color: #F9F9F9;
   }
 
   .header-content {

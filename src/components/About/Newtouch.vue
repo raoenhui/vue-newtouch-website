@@ -1,7 +1,7 @@
 <template>
   <div class="aboutNewtouch">
     <div class="tab-pane">
-      <ul>
+      <ul style="line-height: 42px;">
         <li class="active" @click="showTab(1)"><a href="javascript:void(0);">企业简历</a></li>  <!--/about/conpanyProfile-->
         <li><a href="javascript:void(0);" @click="showTab(2)">分支机构</a></li>
         <li><a href="javascript:void(0);" @click="showTab(3)">企业文化</a></li>
@@ -274,17 +274,78 @@
         <!--<div class="tab-pane-con-tab">企业资质</div>-->
         <div class="tab-pane-con-tab">
           <div class="aboutNewtouch-coreIdea contentMin">
-            <h2>核心理念</h2>
-            <div class="aboutNewtouch-coreIdea-con">
-              日新”语出《大学》首章：“苟日新、日日新、又日新”，蕴涵不断自我更新之意。<br/>
-              “致远”采自诸葛亮《诫子书》：“非淡泊无以明志、非宁静无以致远”，久远的农耕社会政治家确信成功之道源于“宁静”的静态法则。<br/>
-              如今商业社会的技术性公司所遵循的则是“推陈出新，不断自新"”的动态法则
-            </div>
-            <div class="aboutNewtouch-coreIdea-img">
-              <img src="../../assets/about/coreIdea1.png"/>
-              <img src="../../assets/about/coreIdea2.png"/>
-              <img src="../../assets/about/coreIdea3.png"/>
-            </div>
+                <div class="col-md-4 attestation">
+                  <div class="attestation-part">
+                    <div class="attestation_title">
+                      <div class="attestation_boder pull-left"></div>
+                      <h4 class="pull-left">政府认定</h4>
+                      <div class="attestation_boder pull-left"></div>
+                    </div>
+
+                    <ul>
+                      <li><a href="#">国家规划布局内重点软件企业</a></li>
+                      <li><a href="#">中国软件欧美出口工程试点企业</a></li>
+                      <li><a href="#">中国软件出口工程企业</a></li>
+                      <li><a href="#">上海市高新技术企业</a></li>
+                      <li><a href="#">上海市技术先进型服务企业</a></li>
+                      <li><a href="#">上海市认定企业技术中心</a></li>
+                      <li><a href="#">上海市软件企业认定证书</a></li>
+                      <li><a href="#">上海市服务外包重点企业</a></li>
+                      <li><a href="#">上海市明星软件企业</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 attestation">
+                  <div class="attestation-part">
+                    <div class="attestation_title">
+                      <div class="attestation_boder pull-left"></div>
+                      <h4 class="pull-left">ISO质量认证体系</h4>
+                      <div class="attestation_boder pull-left"></div>
+                    </div>
+
+                    <ul>
+                      <li><a href="#">2000年，新致公司通过ISO9001:&nbsp 2000认证</a></li>
+                      <li><a href="#">2010年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                      <li><a href="#">2014年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="attestation-part">
+                    <div class="attestation_title">
+                      <div class="attestation_boder pull-left"></div>
+                      <h4 class="pull-left">信息安全管理认证</h4>
+                      <div class="attestation_boder pull-left"></div>
+                    </div>
+
+                    <ul>
+                      <li><a href="#">2008年，新致公司通过ISO/ IEC 27001:2005认证</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 attestation attestation3" style="text-align: right">
+                  <div class="attestation-part">
+                    <div class="attestation_title">
+                      <div class="attestation_boder pull-left"></div>
+                      <h4 class="pull-left">CMM认证</h4>
+                      <div class="attestation_boder pull-left"></div>
+                    </div>
+                    <ul>
+                      <li><a href="#">2003年，新致公司整体通过CMM&nbsp 3级认证</a></li>
+                      <li><a href="#">2004年，新致公司整体通过CMM&nbsp 4级认证</a></li>
+                      <li><a href="#">2008年，新致公司整体通过CMMI&nbsp 5级认证</a></li>
+                    </ul>
+                  </div>
+                  <div class="attestation-part">
+                    <div class="attestation_title">
+                      <div class="attestation_boder pull-left"></div>
+                      <h4 class="pull-left">其他资质</h4>
+                      <div class="attestation_boder pull-left"></div>
+                    </div>
+                    <ul>
+                      <li><a href="#">获取信息系统集成及服务资质贰级</a></li>
+                    </ul>
+                  </div>
+                </div>
           </div>
         </div>
         <div class="tab-pane-con-tab">
@@ -426,7 +487,7 @@
 
   .aboutNewtouch .tab-pane li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 10px;
   }
 
   .aboutNewtouch .tab-pane li.active a {
@@ -494,6 +555,54 @@
 
   .aboutNewtouch .aboutNewtouch-coreIdea .aboutNewtouch-coreIdea-img img:nth-child(2) {
     margin: 0 10px;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .attestation{
+    padding-left: 0px;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .attestation.attestation3{
+      text-align: right !important;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .attestation .attestation-part{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
+  .attestation .attestation-part .attestation_title{
+    width:100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  .attestation .attestation-part h4{
+    padding: 0px 15px;
+  }
+
+  .attestation .attestation-part .attestation_boder{
+    border-left: 2px #000000 solid;
+    width: 2px;
+    height: 20px;
+  }
+
+  .attestation .attestation-part ul li{
+    width:100%;
+    line-height: 38px !important;
+    display: block !important;
+  }
+
+  .attestation .attestation-part ul li.active a{
+    color: #4178BE !important;
+  }
+
+  .attestation .attestation-part ul li a:hover{
+    color:#023041;
+  }
+
+  .attestation .attestation-part ul li a{
+    color: #4178BE;
   }
 
   /*企业文化end*/
