@@ -29,7 +29,7 @@
           </article>
 
         </div>
-        <div class="tab-pane-con-tab">
+        <div class="tab-pane-con-tab hide">
           <div class="contentMin">
             <div class="row ">
             <div class="col-md-6">
@@ -71,7 +71,7 @@
           </div>
           </div>
         </div>
-        <div class="tab-pane-con-tab">
+        <div class="tab-pane-con-tab hide">
           <div class="aboutNewtouch-coreIdea contentMin">
             <h2>核心理念</h2>
             <div class="aboutNewtouch-coreIdea-con">
@@ -86,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="tab-pane-con-tab">
+        <div class="tab-pane-con-tab hide">
           <div class="contentMin">
             <ul class="aboutNewtouch-timeline">
               <li class="aboutNewtouch-timeline-item">
@@ -272,7 +272,7 @@
           </div>
         </div>
         <!--<div class="tab-pane-con-tab">企业资质</div>-->
-        <div class="tab-pane-con-tab">
+        <div class="tab-pane-con-tab hide">
           <div class="aboutNewtouch-coreIdea contentMin">
                 <div class="col-md-4 attestation">
                   <div class="attestation-part">
@@ -348,7 +348,7 @@
                 </div>
           </div>
         </div>
-        <div class="tab-pane-con-tab">
+        <div class="tab-pane-con-tab hide">
           <div class="contentMin">
             <ul class="aboutNewtouch-timeline">
               <li class="aboutNewtouch-timeline-item">
@@ -495,7 +495,7 @@
   }
 
   .aboutNewtouch .tab-pane-con-tab {
-    background: #fff;
+    background: #e7e7e7;
   }
 
   .aboutNewtouch .contentMin {
@@ -644,7 +644,7 @@
     width: 20px;
     height: 20px;
     line-height: 20px;
-    background-color: #fff;
+    background-color: #e7e7e7;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;

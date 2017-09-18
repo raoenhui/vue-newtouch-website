@@ -9,7 +9,7 @@
     </div>
     <div class="financialBg" v-show="showBg" v-bind:style="{ background: bgColor}">
       <div class="content">
-        <img :src="srcBg"/>
+        <img :src="srcBg" v-show="srcBg"/>
       </div>
     </div>
     <div class="content">
@@ -56,7 +56,7 @@
     data () {
       return {
         showBg: false,
-        titleName:'ddd',
+        titleName:'',
         path: '',
         //背景图片
         srcBg: '',

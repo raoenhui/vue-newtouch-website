@@ -34,6 +34,7 @@ import News from '@/components/About/News'
 import Newtouch from '@/components/About/Newtouch'
 import Contact from '@/components/About/Contact'
 import Support from '@/components/About/Support'
+import NewDetail from '@/components/About/NewDetail'
 
 Vue.use(Router);
 
@@ -217,8 +218,8 @@ export default new Router({
           component: News
         },{
           path: 'news/:id',
-          name:'newsDetail',
-          component: Contact
+          name:'newDetail',
+          component: NewDetail
         },{
           path: 'contact',
           component: Contact
