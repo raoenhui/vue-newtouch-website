@@ -4,8 +4,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 // import Crumbs from './components/Common/Crumbs'
-// import "bootstrap"
-import "bootstrap/dist/css/bootstrap.css"
+import $ from 'jquery'
+import 'bootstrap/js/bootstrap.min.js'
+import 'bootstrap/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/js/bootstrap.min.js'
 
 Vue.config.productionTip = false
 // Vue.component('Crumbs', {
