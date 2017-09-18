@@ -15,6 +15,9 @@ import Medical from '@/components/Program/Medical'
 import Messages from '@/components/Program/Messages'
 import Transportation from '@/components/Program/Transportation'
 import Palm from '@/components/Cart/Palm'
+import FinCloud from '@/components/Cart/FinCloud'
+import MedicalCloud from '@/components/Cart/MedicalCloud'
+import EnterPriseCloud from '@/components/Cart/EnterPriseCloud'
 import System from '@/components/Cart/System'
 import Crm from '@/components/Cart/Crm'
 import His from '@/components/Cart/His'
@@ -133,7 +136,17 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: Palm
+          component: FinCloud
+        },
+        {
+          path:'finCloud',
+          component: FinCloud
+        },{
+          path:'medicalCloud',
+          component: MedicalCloud
+        },{
+          path:'enterPriseCloud',
+          component: EnterPriseCloud
         },
         {
           path: 'palm',
