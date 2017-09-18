@@ -124,5 +124,8 @@ export default {
   .main-share img:nth-child(2){
     margin: 0px 35px;
   }
+  #carousel1 .carousel-inner > .item > img{
+    margin: 0 auto;
+  }
 
 </style>
