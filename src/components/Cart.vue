@@ -9,17 +9,18 @@
     </div>
 
     <div class="main-content clearfix cart">
-
       <div class="silder-content lf">
         <h4 class="silder-title">新致商城</h4>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading active" role="tab" id="headingOne" v-on:click="headtitClick">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" class="active" data-parent="#accordion" href="#collapseOne"
-                   aria-expanded="true" aria-controls="collapseOne">
-                  金融云
-                </a>
+                <router-link to="/cart/finCloud">
+                  <a role="button" data-toggle="collapse" class="active" data-parent="#accordion" href="#collapseOne"
+                     aria-expanded="true" aria-controls="collapseOne">
+                    金融云
+                  </a>
+                </router-link>
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -56,10 +57,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingTwo" v-on:click="headtitClick">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                   aria-expanded="false" aria-controls="collapseTwo">
-                  医疗云
-                </a>
+                <router-link to="/cart/medicalCloud">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                     aria-expanded="false" aria-controls="collapseTwo">
+                    医疗云
+                  </a>
+                </router-link>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -71,24 +74,39 @@
                   <router-link to="/cart/image">
                     <li>云HIS</li>
                   </router-link>
-                  <router-link to="/cart/image"><li>电子商务</li></router-link>
-                  <router-link to="/cart/image"><li>统一人员管理系统</li></router-link>
-                  <router-link to="/cart/image"><li>CRM客户管理平台</li></router-link>
-                  <router-link to="/cart/image"><li>大资管协同平台</li></router-link>
-                  <router-link to="/cart/image"><li>贵金属综合投资平台</li></router-link>
-                  <router-link to="/cart/image"><li>选股学习与交流平台</li></router-link>
+                  <router-link to="/cart/image">
+                    <li>电子商务</li>
+                  </router-link>
+                  <router-link to="/cart/image">
+                    <li>统一人员管理系统</li>
+                  </router-link>
+                  <router-link to="/cart/image">
+                    <li>CRM客户管理平台</li>
+                  </router-link>
+                  <router-link to="/cart/image">
+                    <li>大资管协同平台</li>
+                  </router-link>
+                  <router-link to="/cart/image">
+                    <li>贵金属综合投资平台</li>
+                  </router-link>
+                  <router-link to="/cart/image">
+                    <li>选股学习与交流平台</li>
+                  </router-link>
                 </ul>
               </div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree" v-on:click="headtitClick">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-                   aria-expanded="false" aria-controls="collapseThree">
-                  企业云
-                </a>
-              </h4>
+              <router-link to="/cart/enterPriseCloud">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                     href="#collapseThree"
+                     aria-expanded="false" aria-controls="collapseThree">
+                    企业云
+                  </a>
+                </h4>
+              </router-link>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body silder-List">
@@ -125,7 +143,8 @@
     methods: {
       headtitClick: function (event) {
         $(event.target).parents('.silder-content').find('.panel-heading').removeClass('active');
-        $(event.target).parents(".panel-heading").addClass('active');
+        if ($(event.target).attr("aria-expanded"))
+          $(event.target).parents(".panel-heading").addClass('active');
       }
     },
   }
@@ -213,7 +232,8 @@
   .text-content {
     width: calc(100% - 280px);
   }
-  .cart .panel-body{
+
+  .cart .panel-body {
     padding: 0px;
   }
 </style>
