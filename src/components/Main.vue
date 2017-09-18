@@ -52,11 +52,11 @@
       </div>
 
       <!-- Controls -->
-      <a class="left carousel-control" href="javascript:viod(0)" role="button" data-slide="prev" v-on:click="prev2">
+      <a class="left carousel-control" href="javascript:void(0)" role="button" data-slide="prev" v-on:click="prev2">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="javascript:viod(0)"  role="button" data-slide="next" v-on:click="next2">
+      <a class="right carousel-control" href="javascript:void(0)"  role="button" data-slide="next" v-on:click="next2">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -108,7 +108,7 @@ export default {
   #carousel2{    background: #e7e7e7;}
   .carousel-promotion{
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
   .carousel-promotion img:nth-child(2){
     margin: 0 10px;

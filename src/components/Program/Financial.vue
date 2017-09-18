@@ -113,6 +113,7 @@
   }
 
   .financial .scheme{
+    background: #fff;
     width: inherit;
     display: block;
     width: 100%;
