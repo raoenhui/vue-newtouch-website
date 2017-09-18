@@ -64,7 +64,7 @@
   */
 
   .about-nav{
-    margin-top: -42px;
+    margin-top: -43px;
     border-left: none;
     text-align: center;
   }
@@ -89,7 +89,7 @@
   }
 
   .tab-content{
-    line-height:42px;
+    line-height:30px;
     text-align: center;
   }
 
