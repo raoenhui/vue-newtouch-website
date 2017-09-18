@@ -47,7 +47,6 @@ export default new Router({
     },
     {
       path: '/program',
-      name: 'Program',
       component: Program,
       children: [
         {
@@ -132,7 +131,6 @@ export default new Router({
     },
     {
       path: '/cart',
-      name: 'Cart',
       component: Cart,
       children: [
         {
@@ -201,7 +199,6 @@ export default new Router({
     },
     {
       path: '/about',
-      name: 'About',
       component: About,
       children: [
         {
