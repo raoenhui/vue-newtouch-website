@@ -73,7 +73,7 @@
 
 <style scoped>
   /*公共css*/
-  @import './css/app.css';
+  @import './css/App.css';
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -5,7 +5,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img :src="srcBg">
+            <img class="marginCenter" :src="srcBg">
           </div>
         </div>
       </div>
