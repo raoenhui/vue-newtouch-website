@@ -2,9 +2,9 @@
   <div class="aboutNews">
     <div class="clearfix news-content">
       <div class="content" style="width:1030px">
-        <div class="panel panel-default news active">
-          <div class="panel-body">
-            <a href="">
+        <router-link :to="{ name: 'newsDetail', params: { id: 123 }}">
+          <div class="panel panel-default news active">
+            <div class="panel-body">
               <div class="col-md-9">
                 <h4>【务副省长秦如培来访纪实】 云算天下 做 数字经济产业发展的中坚力量</h4>
                 <span>
@@ -15,10 +15,9 @@
                 <span class="month_day pull-right">27/07</span>
                 <span class="year pull-right">2017</span>
               </div>
-            </a>
+            </div>
           </div>
-        </div>
-
+        </router-link>
         <div class="panel panel-default news">
           <div class="panel-body">
             <a href="">

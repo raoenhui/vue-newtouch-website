@@ -216,6 +216,10 @@ export default new Router({
           path: 'news',
           component: News
         },{
+          path: 'news/:id',
+          name:'newsDetail',
+          component: Contact
+        },{
           path: 'contact',
           component: Contact
         },{
