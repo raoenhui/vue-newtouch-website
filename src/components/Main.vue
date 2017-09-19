@@ -63,6 +63,7 @@
     </div>
     <div class="main-share">
       <div class="main-share-con">
+        <h2>知识共享</h2>
         <img src="../assets/share1.png">
         <img src="../assets/share2.png">
         <img src="../assets/share3.png">
@@ -90,8 +91,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #carousel2 {
+  #carousel2{
     background: #f4f4f4;
+    padding:40px 0px;
   }
   .carousel-promotion{
     width: 1000px;
@@ -102,13 +104,18 @@ export default {
   }
   .main-share{
     background: #264a60;
-    padding: 100px 0;
+    padding: 50px 0;
   }
   .main-share .main-share-con{
     width:1200px;
     margin: 0 auto;
   }
-  .main-share img:nth-child(2){
+  .main-share-con{
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px 30px;
+  }
+  .main-share img:nth-child(3){
     margin: 0px 35px;
   }
   #carousel1 .carousel-inner > .item > img{

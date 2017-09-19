@@ -176,7 +176,8 @@
 
   .main-content {
     width: 1200px;
-    margin: 30px auto;
+    margin: 30px auto 0px auto;
+    padding-bottom: 15px;
   }
 
   .silder-content {
