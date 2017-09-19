@@ -7,9 +7,7 @@ import router from './router'
 import $ from 'jquery'
 import 'bootstrap/js/bootstrap.min.js'
 import 'bootstrap/css/bootstrap.min.css'
-// import 'bootstrap/dist/css/bootstrap.css'
-// import 'bootstrap/dist/js/bootstrap.min.js'
-
+import "font-awesome/css/font-awesome.css";
 Vue.config.productionTip = false
 // Vue.component('Crumbs', {
 //   // props: ['data'],
