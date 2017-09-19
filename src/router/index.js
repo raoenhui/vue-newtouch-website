@@ -20,8 +20,11 @@ import MedicalCloud from '@/components/Cart/MedicalCloud'
 import EnterPriseCloud from '@/components/Cart/EnterPriseCloud'
 import System from '@/components/Cart/System'
 import Crm from '@/components/Cart/Crm'
-import His from '@/components/Cart/His'
 import Image from '@/components/Cart/Image'
+import His from '@/components/Cart/His'
+import Cpoe from '@/components/Cart/Cpoe'
+import Cis from '@/components/Cart/Cis'
+import Erm from '@/components/Cart/Erm'
 import Pm from '@/components/Cart/Pm'
 import BigSystem from '@/components/Cart/BigSystem'
 import ClientSystem from '@/components/Cart/ClientSystem'
@@ -47,7 +50,6 @@ export default new Router({
     },
     {
       path: '/program',
-      name: 'Program',
       component: Program,
       children: [
         {
@@ -132,7 +134,6 @@ export default new Router({
     },
     {
       path: '/cart',
-      name: 'Cart',
       component: Cart,
       children: [
         {
@@ -162,12 +163,24 @@ export default new Router({
           component: Crm
         },
         {
+          path: 'image',
+          component: Image
+        },
+        {
           path: 'his',
           component: His
         },
         {
-          path: 'image',
-          component: Image
+          path: 'cpoe',
+          component: Cpoe
+        },
+        {
+          path: 'cis',
+          component: Cis
+        },
+        {
+          path: 'erm',
+          component: Erm
         },
         {
           path: 'pm',
@@ -201,7 +214,6 @@ export default new Router({
     },
     {
       path: '/about',
-      name: 'About',
       component: About,
       children: [
         {

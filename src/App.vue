@@ -43,11 +43,6 @@
           <dd>客户入口 </dd>
         </dl>
         <dl>
-          <dt>帮助中心</dt>
-          <dd>全程服务</dd>
-          <dd>业务支持</dd>
-        </dl>
-        <dl>
           <dt>联系方式</dt>
           <dd>地址：上海市浦东新区峨山路91弄98号陆家嘴软件园 1号楼4楼</dd>
           <dd>电话：400-7842-782</dd>
@@ -78,14 +73,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    font-family: Microsoft Yahei;
     font-size: 14px;
     -webkit-text-size-adjust: 100%;
   }
 
 
   .header {
-    background: #022330;
+    background: #343434;
     height: 80px;
   }
 
@@ -137,7 +131,7 @@
     color:#fff
   }
   .footer{
-    background: #061325;
+    background: #343434;
   }
   .footer .content{
     padding: 50px 0;

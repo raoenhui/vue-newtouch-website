@@ -90,7 +90,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  #carousel2{    background: #e7e7e7;}
+  #carousel2 {
+    background: #f4f4f4;
+  }
   .carousel-promotion{
     width: 1000px;
     margin: 20px auto;

@@ -57,7 +57,7 @@
 <style scoped>
     .aboutJoin{
       margin: 0 auto;
-      background-color: #E7E7E7;
+      background-color: #f4f4f4;
       padding: 60px 0px;
 
     }
@@ -92,7 +92,7 @@
 
     .aboutJoin_part .aboutJoin_title h4{
       top: -4px;
-      background: #E7E7E7;
+      background: #f4f4f4;
       position: relative;
       width: 101px;
       display: inline-block;
