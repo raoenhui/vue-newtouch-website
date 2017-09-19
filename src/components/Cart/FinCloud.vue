@@ -16,7 +16,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/palm')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -43,7 +43,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/system')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -243,7 +243,12 @@
 <script>
 
   export default {
-    name: "finCloud"
+    name: "finCloud",
+    methods: {
+      learnMoreFun: function (path) {
+        this.$router.push({path: path})
+      }
+    }
   }
 </script>
 
@@ -280,7 +285,7 @@
 
  .finCloud .finCloud_Category .finCloud_Category_title h2{
    top: -3px;
-   background: #F9F9F9;
+   background: #F4F4F4;
    position: relative;
    width: 101px;
    display: inline-block;
@@ -319,9 +324,10 @@
  }
  .finCloud .finCloud_Category .Category_list .finCloudlist .category_more_cat .category_more{
     background-color:#DCDCDC;
+   cursor: pointer
  }
  .finCloud .finCloud_Category .Category_list .finCloudlist .category_more_cat .category_more span{
-   font-size: 1.3em;
+   font-size: 1.3em;;
  }
  .finCloud .finCloud_Category .Category_list .finCloudlist .category_more_cat .category_more a{
    color: #656565;

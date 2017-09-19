@@ -1,5 +1,6 @@
 body{
-  background: #e7e7e7 !important;
+  background: #f4f4f4 !important;
+  font-family: PingFangSC-Regular, Microsoft Yahei, 微软雅黑 !important;
 }
 .clearfix:after {
   display: block;

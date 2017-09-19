@@ -516,7 +516,7 @@
   }
 
   .aboutNewtouch .tab-pane-con-tab {
-    background: #e7e7e7;
+    background: #f4f4f4;
   }
 
   .aboutNewtouch .contentMin {
@@ -525,7 +525,7 @@
 
   /*公司简历 start*/
   .companyInfo {
-    background-color: #E7E7E7;
+    background-color: #f4f4f4;
     padding: 30px 0px;
   }
 
@@ -665,7 +665,7 @@
     width: 20px;
     height: 20px;
     line-height: 20px;
-    background-color: #e7e7e7;
+    background-color: #f4f4f4;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;

@@ -73,14 +73,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    font-family: Microsoft Yahei;
     font-size: 14px;
     -webkit-text-size-adjust: 100%;
   }
 
 
   .header {
-    background: #022330;
+    background: #343434;
     height: 80px;
   }
 
@@ -132,7 +131,7 @@
     color:#fff
   }
   .footer{
-    background: #061325;
+    background: #343434;
   }
   .footer .content{
     padding: 50px 0;

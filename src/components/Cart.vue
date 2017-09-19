@@ -71,26 +71,17 @@
                   <router-link to="/cart/image">
                     <li>影像云</li>
                   </router-link>
-                  <router-link to="/cart/image">
+                  <router-link to="/cart/his">
                     <li>云HIS</li>
                   </router-link>
-                  <router-link to="/cart/image">
-                    <li>电子商务</li>
+                  <router-link to="/cart/cpoe">
+                    <li>云CPOE</li>
                   </router-link>
-                  <router-link to="/cart/image">
-                    <li>统一人员管理系统</li>
+                  <router-link to="/cart/cis">
+                    <li>云CIS</li>
                   </router-link>
-                  <router-link to="/cart/image">
-                    <li>CRM客户管理平台</li>
-                  </router-link>
-                  <router-link to="/cart/image">
-                    <li>大资管协同平台</li>
-                  </router-link>
-                  <router-link to="/cart/image">
-                    <li>贵金属综合投资平台</li>
-                  </router-link>
-                  <router-link to="/cart/image">
-                    <li>选股学习与交流平台</li>
+                  <router-link to="/cart/erm">
+                    <li>云ERM</li>
                   </router-link>
                 </ul>
               </div>
@@ -134,11 +125,6 @@
 <script>
   export default {
     name: 'cart',
-    data () {
-      return {
-        msg: ''
-      }
-    },
     // 在 `methods` 对象中定义方法
     methods: {
       headtitClick: function (event) {
@@ -169,14 +155,14 @@
   }
 
   .total-container {
-    background-color: #F9F9F9;
+    background-color: #F4f4f4;
   }
 
   .header-content {
     width: 100%;
     height: 50px;
     line-height: 50px;
-    background-color: #F1F1F1;
+    background: #ececec;
   }
 
   .header-content .page-local {
