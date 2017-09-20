@@ -5,7 +5,6 @@ import Main from '@/components/Main'
 import Cart from '@/components/Cart'
 import About from '@/components/About'
 import Program from '@/components/Program'
-import Scheme from '@/components/Program/Scheme'
 import Financial from '@/components/Program/Financial'
 import Telecom from '@/components/Program/Telecom'
 import Government from '@/components/Program/Government'
@@ -22,6 +21,13 @@ import System from '@/components/Cart/System'
 import Crm from '@/components/Cart/Crm'
 import Image from '@/components/Cart/Image'
 import His from '@/components/Cart/His'
+import PrivateCloud from '@/components/Cart/PrivateCloud'
+import MixtureCloud from '@/components/Cart/MixtureCloud'
+import DisasterCloud from '@/components/Cart/DisasterCloud'
+import BigData from '@/components/Cart/BigData'
+import Consult from '@/components/Cart/Consult'
+import Ops from '@/components/Cart/Ops'
+import Pay from '@/components/Cart/Pay'
 import Cpoe from '@/components/Cart/Cpoe'
 import Cis from '@/components/Cart/Cis'
 import Erm from '@/components/Cart/Erm'
@@ -37,7 +43,11 @@ import News from '@/components/About/News'
 import Newtouch from '@/components/About/Newtouch'
 import Contact from '@/components/About/Contact'
 import Support from '@/components/About/Support'
-import NewDetail from '@/components/About/NewDetail'
+import NewDetail1 from '@/components/About/NewDetail1'
+import NewDetail2 from '@/components/About/NewDetail2'
+import NewDetail3 from '@/components/About/NewDetail3'
+import NewDetail4 from '@/components/About/NewDetail4'
+import NewDetail5 from '@/components/About/NewDetail5'
 
 Vue.use(Router);
 
@@ -54,11 +64,7 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: Scheme
-        },
-        {
-          path: 'scheme',
-          component: Scheme
+          redirect: 'financial'
         },
         {
           path: 'financial',
@@ -171,6 +177,34 @@ export default new Router({
           component: His
         },
         {
+          path: 'bigData',
+          component: BigData
+        },
+        {
+          path: 'consult',
+          component: Consult
+        },
+        {
+          path: 'disasterCloud',
+          component: DisasterCloud
+        },
+        {
+          path: 'mixtureCloud',
+          component: MixtureCloud
+        },
+        {
+          path: 'ops',
+          component: Ops
+        },
+        {
+          path: 'pay',
+          component: Pay
+        },
+        {
+          path: 'privateCloud',
+          component: PrivateCloud
+        },
+        {
           path: 'cpoe',
           component: Cpoe
         },
@@ -218,7 +252,7 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: Newtouch
+          redirect: 'newtouch'
         },{
           path: 'newtouch',
           component: Newtouch
@@ -229,10 +263,21 @@ export default new Router({
           path: 'news',
           component: News
         },{
-          path: 'news/:id',
-          name:'newDetail',
-          component: NewDetail
+          path: 'newDetail1',
+          component: NewDetail1
         },{
+          path: 'newDetail2',
+          component: NewDetail2
+        }, {
+          path: 'newDetail3',
+          component: NewDetail3
+        }, {
+          path: 'newDetail4',
+          component: NewDetail4
+        }, {
+          path: 'newDetail5',
+          component: NewDetail5
+        }, {
           path: 'contact',
           component: Contact
         },{

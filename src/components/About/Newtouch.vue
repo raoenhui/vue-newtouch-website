@@ -35,7 +35,7 @@
             <div class="col-md-6">
               <div class="aboutNewtouch-addressDiv">
                 <div class="aboutNewtouch-addressDiv-tit">|&nbsp;&nbsp;公司总部&nbsp;&nbsp;|</div>
-                <div class="aboutNewtouch-addressDiv-link">上海新致软件股份有限公司</div>
+                <div class="aboutNewtouch-addressDiv-link">上海新致软件股份有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
                 <div class="aboutNewtouch-addressDiv-con">地址：上海市浦东新区峨山路91弄98号陆家嘴软件园1号楼4F-6F</div>
                 <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
                 <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
@@ -44,21 +44,21 @@
               </div>
               <div class="aboutNewtouch-addressDiv">
                 <div class="aboutNewtouch-addressDiv-tit">|&nbsp;&nbsp;分支机构&nbsp;&nbsp;|</div>
-                <div class="aboutNewtouch-addressDiv-link">上海新逸科技有限公司</div>
+                <div class="aboutNewtouch-addressDiv-link">上海新逸科技有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
                 <div class="aboutNewtouch-addressDiv-con">地址：上海市徐汇区田林路200号C幢206室</div>
                 <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
                 <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
                 <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
               </div>
               <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">上海新致仕海软件有限公司</div>
+                <div class="aboutNewtouch-addressDiv-link">上海新致仕海软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
                 <div class="aboutNewtouch-addressDiv-con">地址：中国（上海）自由贸易试验区乳山路227号2楼B区231室</div>
                 <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
                 <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
                 <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
               </div>
               <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">上海新致信息技术有限公司</div>
+                <div class="aboutNewtouch-addressDiv-link">上海新致信息技术有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
                 <div class="aboutNewtouch-addressDiv-con">地址：中国（上海）自由贸易试验区华申路198号一幢楼六层E-03室</div>
                 <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
                 <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
@@ -283,15 +283,15 @@
                     </div>
 
                     <ul>
-                      <li><a href="#">国家规划布局内重点软件企业</a></li>
-                      <li><a href="#">中国软件欧美出口工程试点企业</a></li>
-                      <li><a href="#">中国软件出口工程企业</a></li>
-                      <li><a href="#">上海市高新技术企业</a></li>
-                      <li><a href="#">上海市技术先进型服务企业</a></li>
-                      <li><a href="#">上海市认定企业技术中心</a></li>
-                      <li><a href="#">上海市软件企业认定证书</a></li>
-                      <li><a href="#">上海市服务外包重点企业</a></li>
-                      <li><a href="#">上海市明星软件企业</a></li>
+                      <li><a href="http://www.newtouch.cn/china/about/08_02.htm">国家规划布局内重点软件企业</a></li>
+                      <li><a href="javascript:void(0);">中国软件欧美出口工程试点企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(1)">中国软件出口工程企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(2)">上海市高新技术企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(3)">上海市技术先进型服务企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(4)">上海市认定企业技术中心</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(5)">上海市软件企业认定证书</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(6)">上海市服务外包重点企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(7)">上海市明星软件企业</a></li>
                     </ul>
                   </div>
                 </div>
@@ -304,9 +304,9 @@
                     </div>
 
                     <ul>
-                      <li><a href="#">2000年，新致公司通过ISO9001:&nbsp 2000认证</a></li>
-                      <li><a href="#">2010年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
-                      <li><a href="#">2014年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(8)">2000年，新致公司通过ISO9001:&nbsp 2000认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(10)">2010年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(12)">2014年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
                     </ul>
                   </div>
 
@@ -318,7 +318,7 @@
                     </div>
 
                     <ul>
-                      <li><a href="#">2008年，新致公司通过ISO/ IEC 27001:2005认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(15)">2008年，新致公司通过ISO/ IEC 27001:2005认证</a></li>
                     </ul>
                   </div>
                 </div>
@@ -330,9 +330,9 @@
                       <div class="attestation_boder pull-left"></div>
                     </div>
                     <ul>
-                      <li><a href="#">2003年，新致公司整体通过CMM&nbsp 3级认证</a></li>
-                      <li><a href="#">2004年，新致公司整体通过CMM&nbsp 4级认证</a></li>
-                      <li><a href="#">2008年，新致公司整体通过CMMI&nbsp 5级认证</a></li>
+                      <li><a href="javascript:void(0);">2003年，新致公司整体通过CMM&nbsp 3级认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(13)">2004年，新致公司整体通过CMM&nbsp 4级认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(14)">2008年，新致公司整体通过CMMI&nbsp 5级认证</a></li>
                     </ul>
                   </div>
                   <div class="attestation-part">
@@ -342,9 +342,25 @@
                       <div class="attestation_boder pull-left"></div>
                     </div>
                     <ul>
-                      <li><a href="#">获取信息系统集成及服务资质贰级</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(16)">获取信息系统集成及服务资质贰级</a></li>
                     </ul>
                   </div>
+                </div>
+
+                <div id="certificate_1" class="certificate_style" v-show="isShow">
+                  <img :src="certificateImg">
+                  <h4 v-on:click="isShow=false"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>关闭</h4>
+                </div>
+                <div id="certificate_8" class="certificate_style certificate_spi" v-show="isShow1">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td align="left" valign="middle" style=" border-right:1px solid #fff;"><p style="padding: 0px;"><img :src="certificateImg"></p></td>
+                        <td align="right" valign="middle"><img :src="certificateImg1"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <h4 v-on:click="isShow1=false"><span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>关闭</h4>
                 </div>
           </div>
         </div>
@@ -467,12 +483,20 @@
   //  import {MP} from './map.js'
   export default {
     name: 'newtouch',
+    data () {
+      return {
+        isShow:false,
+        isShow1:false,
+        certificateImg:'',
+        certificateImg1:'',
+      }
+    },
     methods: {
       showTab: function (i) {
         $(`.aboutNewtouch .tab-pane ul>li:nth-child(${i})`).addClass('active').siblings().removeClass('active')
         $(`.aboutNewtouch .tab-pane-con-tab:nth-child(${i})`).removeClass('hide').siblings().addClass('hide')
       },
-      showMap:function(){
+      showMap:function() {
         // 百度地图API功能
 //      MP().then(function(BMap){
 //          var map = new BMap.Map("allmap");
@@ -491,6 +515,21 @@
 //          }, "上海市");
 //        }
 //      );
+      },
+      showImgFun: function(path){
+          console.log(path);
+          if(path==8){
+            this.isShow1 = true;
+            this.certificateImg = require(`../../assets/about/certificate_8.jpg`);
+            this.certificateImg1 = require(`../../assets/about/certificate_9.jpg`);
+          }else if(path==10){
+            this.isShow1 = true;
+            this.certificateImg = require(`../../assets/about/certificate_10.jpg`);
+            this.certificateImg1 = require(`../../assets/about/certificate_11.jpg`);
+          }else{
+            this.isShow = true;
+            this.certificateImg = require(`../../assets/about/certificate_${path}.jpg`);
+          }
       }
     }
   }
@@ -498,6 +537,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
   .aboutNewtouch a {
     color: #fff;
   }
@@ -563,6 +603,9 @@
     cursor: pointer;
   }
 
+  .aboutNewtouch .aboutNewtouch-addressDiv .aboutNewtouch-addressDiv-link span{
+    font-size: 1.7em;
+  }
   /*分支机构end*/
   /*企业文化start*/
   .aboutNewtouch .aboutNewtouch-coreIdea h2 {
@@ -590,6 +633,43 @@
     text-align: left;
     margin-top: 20px;
     margin-bottom: 70px;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style{
+    min-width: 600px;
+    max-width: 700px;
+    background-color: #FC0;
+    padding: 30px;
+    padding-bottom: 0;
+    border: 10px solid #DFDFDF;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 25%;
+    right: 25%;
+    margin-top: -2%;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style.certificate_spi{
+    max-width: 1000px;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style img{
+    padding: 0px 0px 1px 0px;
+    border-bottom: #000 1px solid;
+    border-right: #000 1px solid;
+    background-position: right bottom;
+    width: 95%;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style h4 {
+    padding: 5px 0px 5px 0px;
+    background-position: right bottom;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style h4 span{
+    margin-right: 5px;
+    top:3px;
   }
 
   .attestation .attestation-part .attestation_title{

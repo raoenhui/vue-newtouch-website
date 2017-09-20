@@ -2,13 +2,77 @@
   <div class="aboutNews">
     <div class="clearfix news-content">
       <div class="content" style="width:1030px">
-        <router-link :to="{ name: 'newDetail', params: { id: 123 }}" v-for="i in [1,2,3]" :key="i">
+        <router-link to="/about/newDetail1">
+          <div class="panel panel-default news active">
+            <div class="panel-body">
+              <div class="col-md-9">
+                <h4>新致软件满廿三 初心不忘再起航</h4>
+                <span>
+                  今日，浦东假日酒店，历经二十三个春华秋实的新致软件，在这里召开庆祝活动。公司股东、合作伙伴、老员工代表和董事会、管理团队等一百余名新老朋友在这里相聚，一起用切实行动，欢庆公司二十三华诞
+                </span>
+              </div>
+              <div class="col-md-3">
+                <span class="month_day pull-right">27/07</span>
+                <span class="year pull-right">2017</span>
+              </div>
+            </div>
+          </div>
+        </router-link>
+        <router-link to="/about/newDetail2">
+          <div class="panel panel-default news active">
+            <div class="panel-body">
+              <div class="col-md-9">
+                <h4>新致软件满廿三 初心不忘再起航</h4>
+                <span>
+                  今日，浦东假日酒店，历经二十三个春华秋实的新致软件，在这里召开庆祝活动。公司股东、合作伙伴、老员工代表和董事会、管理团队等一百余名新老朋友在这里相聚，一起用切实行动，欢庆公司二十三华诞
+                </span>
+              </div>
+              <div class="col-md-3">
+                <span class="month_day pull-right">27/07</span>
+                <span class="year pull-right">2017</span>
+              </div>
+            </div>
+          </div>
+        </router-link>
+        <router-link to="/about/newDetail3">
+          <div class="panel panel-default news active">
+            <div class="panel-body">
+              <div class="col-md-9">
+                <h4>新致软件满廿三 初心不忘再起航</h4>
+                <span>
+                  今日，浦东假日酒店，历经二十三个春华秋实的新致软件，在这里召开庆祝活动。公司股东、合作伙伴、老员工代表和董事会、管理团队等一百余名新老朋友在这里相聚，一起用切实行动，欢庆公司二十三华诞
+                </span>
+              </div>
+              <div class="col-md-3">
+                <span class="month_day pull-right">27/07</span>
+                <span class="year pull-right">2017</span>
+              </div>
+            </div>
+          </div>
+        </router-link>
+        <router-link to="/about/newDetail4">
+          <div class="panel panel-default news active">
+            <div class="panel-body">
+              <div class="col-md-9">
+                <h4>新致软件满廿三 初心不忘再起航</h4>
+                <span>
+                  今日，浦东假日酒店，历经二十三个春华秋实的新致软件，在这里召开庆祝活动。公司股东、合作伙伴、老员工代表和董事会、管理团队等一百余名新老朋友在这里相聚，一起用切实行动，欢庆公司二十三华诞
+                </span>
+              </div>
+              <div class="col-md-3">
+                <span class="month_day pull-right">27/07</span>
+                <span class="year pull-right">2017</span>
+              </div>
+            </div>
+          </div>
+        </router-link>
+        <router-link to="/about/newDetail5">
           <div class="panel panel-default news active"  >
             <div class="panel-body">
               <div class="col-md-9">
-                <h4>【务副省长秦如培来访纪实】 云算天下 做 数字经济产业发展的中坚力量</h4>
+                <h4>新致软件满廿三 初心不忘再起航</h4>
                 <span>
-                  七月二十七贵州省省委常委、常务副省长秦如培，在贵安数字 经济产业园区领导陪同下，莅临贵州新致普惠观摩考察
+                  今日，浦东假日酒店，历经二十三个春华秋实的新致软件，在这里召开庆祝活动。公司股东、合作伙伴、老员工代表和董事会、管理团队等一百余名新老朋友在这里相聚，一起用切实行动，欢庆公司二十三华诞
                 </span>
               </div>
               <div class="col-md-3">

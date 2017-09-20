@@ -29,27 +29,28 @@
     <footer class="footer">
       <div class="content clearfix">
         <dl>
-          <dt>帮助中心</dt>
-          <dd>全程服务</dd>
-          <dd>业务支持</dd>
-        </dl>
-        <dl>
-          <dt>公司</dt>
-          <dd>网站使用条款</dd>
-          <dd>信息保护声明</dd>
-          <dd>CMMI5</dd>
-          <dd>ISO27001</dd>
-          <dd>员工信箱</dd>
-          <dd>客户入口 </dd>
-        </dl>
-        <dl>
           <dt>联系方式</dt>
-          <dd>地址：上海市浦东新区峨山路91弄98号陆家嘴软件园 1号楼4楼</dd>
-          <dd>电话：400-7842-782</dd>
-          <dd>邮箱：support@newtouch.com</dd>
+          <dd>地址：上海市浦东新区峨山路91弄98号陆家嘴软件园 1号楼4F-6F</dd>
+          <dd>电话：021-51105660</dd>
+          <dd>传真：021-51105667</dd>
+          <dd>邮编：200127</dd>
+          <dd>邮箱：newtouch@newtouch.cn</dd>
         </dl>
         <div class="footer-i">
-
+            <div class="pull-left weichat">
+              <i class="fa fa-weixin" aria-hidden="true"></i>
+              <span class="arrow-left">
+                <!--向左的三角-->
+              </span>
+              <img src="./assets/weibo2.png" width="100" height="100"/>
+            </div>
+            <div class="pull-left">
+              <i class="fa fa-weibo" aria-hidden="true"></i>
+              <div class="arrow-left">
+                <!--向左的三角-->
+              </div>
+              <img src="./assets/webIcon.png" />
+            </div>
         </div>
       </div>
       <div class="footer-bottom">
@@ -72,7 +73,7 @@
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
+    color: #333;
     font-size: 14px;
     -webkit-text-size-adjust: 100%;
   }
@@ -130,27 +131,61 @@
   .header .header-nav a{
     color:#fff
   }
+
+  /*****底部样式*****/
   .footer{
     background: #343434;
   }
   .footer .content{
-    padding: 50px 0;
+    padding: 40px 100px;
   }
   .footer .content dl{
     float: left;
     color: #fff;
-    width: 20%;
+    width: 45%;
+    margin-bottom: 0px;
   }
   .footer .content dt{
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
-  .footer .content dd{}
+  .footer .content dd{
+    line-height: 25px;
+    color:#ABACAF;
+  }
   .footer .footer-bottom{
     text-align: center;
-    color: #fff;
-    border-top: #142c40 1px solid;
+    color: #ABACAF;
+    border-top: #ABACAF 1px solid;
     padding: 10px 0px;
+  }
+
+  .footer .content .footer-i{
+    color: #fff;
+    text-align: left;
+    margin-top: 4%;
+    float: right;
+  }
+
+  .footer .content .footer-i .pull-left i{
+      font-size: 1.7em;
+  }
+
+  .footer .content .footer-i .weichat{
+    margin-right: 40px;
+  }
+
+  /*箭头向左*/
+  .arrow-left {
+    width: 0px;
+    height: 0px;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 15px solid white;
+    display: inline-block;
+    top: 3px;
+    position: relative;
+    left: 4px;
   }
 
 </style>
