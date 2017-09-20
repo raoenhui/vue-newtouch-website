@@ -284,14 +284,14 @@
 
                     <ul>
                       <li><a href="http://www.newtouch.cn/china/about/08_02.htm">国家规划布局内重点软件企业</a></li>
-                      <li><a href="#">中国软件欧美出口工程试点企业</a></li>
-                      <li><a @click="showImgFun(1)">中国软件出口工程企业</a></li>
-                      <li><a @click="showImgFun(2)">上海市高新技术企业</a></li>
-                      <li><a @click="showImgFun(3)">上海市技术先进型服务企业</a></li>
-                      <li><a @click="showImgFun(4)">上海市认定企业技术中心</a></li>
-                      <li><a @click="showImgFun(5)">上海市软件企业认定证书</a></li>
-                      <li><a @click="showImgFun(6)">上海市服务外包重点企业</a></li>
-                      <li><a @click="showImgFun(7)">上海市明星软件企业</a></li>
+                      <li><a href="javascript:void(0);">中国软件欧美出口工程试点企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(1)">中国软件出口工程企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(2)">上海市高新技术企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(3)">上海市技术先进型服务企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(4)">上海市认定企业技术中心</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(5)">上海市软件企业认定证书</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(6)">上海市服务外包重点企业</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(7)">上海市明星软件企业</a></li>
                     </ul>
                   </div>
                 </div>
@@ -304,9 +304,9 @@
                     </div>
 
                     <ul>
-                      <li><a @click="showImgFun(8)">2000年，新致公司通过ISO9001:&nbsp 2000认证</a></li>
-                      <li><a @click="showImgFun(10)">2010年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
-                      <li><a @click="showImgFun(12)">2014年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(8)">2000年，新致公司通过ISO9001:&nbsp 2000认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(10)">2010年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
+                      <li><a href="javascript:void(0);" @click="showImgFun(12)">2014年，新致公司通过ISO9001:&nbsp 2008认证</a></li>
                     </ul>
                   </div>
 
@@ -318,7 +318,7 @@
                     </div>
 
                     <ul>
-                      <li><a v-on:click="showImgFun(15)">2008年，新致公司通过ISO/ IEC 27001:2005认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(15)">2008年，新致公司通过ISO/ IEC 27001:2005认证</a></li>
                     </ul>
                   </div>
                 </div>
@@ -330,9 +330,9 @@
                       <div class="attestation_boder pull-left"></div>
                     </div>
                     <ul>
-                      <li><a href="#">2003年，新致公司整体通过CMM&nbsp 3级认证</a></li>
-                      <li><a v-on:click="showImgFun(13)">2004年，新致公司整体通过CMM&nbsp 4级认证</a></li>
-                      <li><a v-on:click="showImgFun(14)">2008年，新致公司整体通过CMMI&nbsp 5级认证</a></li>
+                      <li><a href="javascript:void(0);">2003年，新致公司整体通过CMM&nbsp 3级认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(13)">2004年，新致公司整体通过CMM&nbsp 4级认证</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(14)">2008年，新致公司整体通过CMMI&nbsp 5级认证</a></li>
                     </ul>
                   </div>
                   <div class="attestation-part">
@@ -342,7 +342,7 @@
                       <div class="attestation_boder pull-left"></div>
                     </div>
                     <ul>
-                      <li><a v-on:click="showImgFun(16)">获取信息系统集成及服务资质贰级</a></li>
+                      <li><a href="javascript:void(0);" v-on:click="showImgFun(16)">获取信息系统集成及服务资质贰级</a></li>
                     </ul>
                   </div>
                 </div>
@@ -537,14 +537,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  /*td, th {*/
-    /*display: table-cell;*/
-    /*vertical-align: inherit;*/
-  /*}*/
-
-  /*td{*/
-    /*vertical-align: middle;*/
-  /*}*/
 
   .aboutNewtouch a {
     color: #fff;
@@ -670,10 +662,14 @@
     width: 95%;
   }
 
-  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style h4
-  {
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style h4 {
     padding: 5px 0px 5px 0px;
     background-position: right bottom;
+  }
+
+  .aboutNewtouch .aboutNewtouch-coreIdea .certificate_style h4 span{
+    margin-right: 5px;
+    top:3px;
   }
 
   .attestation .attestation-part .attestation_title{
