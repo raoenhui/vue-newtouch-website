@@ -103,6 +103,9 @@
     display: inline-block;
   }
 
+  .about .about-nav .router-link-active .about-nav-line {
+    background: #00beff;
+  }
   .about .about-nav .about-nav-line {
     line-height: 42px;
     margin: 0px;
@@ -113,7 +116,8 @@
     border-right: solid 0.5px #fff;
     margin-right: -5px;
     padding: 0 20px;
-    color: #fff
+    color: #fff;
+    background: #343434;
   }
 
   .about .about-nav .about-nav-line:hover {

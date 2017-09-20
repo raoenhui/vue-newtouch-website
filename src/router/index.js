@@ -5,7 +5,6 @@ import Main from '@/components/Main'
 import Cart from '@/components/Cart'
 import About from '@/components/About'
 import Program from '@/components/Program'
-import Scheme from '@/components/Program/Scheme'
 import Financial from '@/components/Program/Financial'
 import Telecom from '@/components/Program/Telecom'
 import Government from '@/components/Program/Government'
@@ -65,11 +64,7 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: Scheme
-        },
-        {
-          path: 'scheme',
-          component: Scheme
+          redirect: 'financial'
         },
         {
           path: 'financial',
@@ -257,7 +252,7 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: Newtouch
+          redirect: 'newtouch'
         },{
           path: 'newtouch',
           component: Newtouch
