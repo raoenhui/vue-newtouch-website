@@ -12,7 +12,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/Crm')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -39,7 +39,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/Pm')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -64,7 +64,13 @@
 <script>
 
   export default {
-    name: "enterpriseCloud"
+    name: "enterpriseCloud",
+    methods: {
+      learnMoreFun: function (path) {
+        this.$router.push({path: path})
+        document.body.scrollTop = 0+'px';
+      }
+    }
   }
 </script>
 

@@ -7,32 +7,32 @@
       </h4>
     </div>
 
-     <p>从诊断前，诊断中，诊断后三个角度出发，以患者、医生、医院为中心，提供医疗影像诊断系统整体解决方案，帮助医疗机构加速进入"云"时代。</p>
+     <p>诊断前，诊断中，诊断后三个角度出发，以患者、医生、医院为中心，提供医疗影像诊断系统整体解决方案，帮助医疗机构加速进入“云”时代。</p>
 
     <h4 class="title">【产品特点】</h4>
     <ol>
       <li>
-        产品管理：包括产品、需求、计划、发布、路线图等功能。
+        构建统一、规范、标准预约服务，在“云”快速预约
       </li>
       <li>
-        项目管理：包括项目、任务、团队、build、燃尽图等功能。
+        建立门诊预约到控费的闭环管理，“云”合雾集
       </li>
       <li>
-        质量管理：包括bug、测试用例、测试任务、测试结果等功能。
+        支付安全、智能、便利，“云”中遨游
       </li>
       <li>
-        文档管理：包括产品文档库、项目文档库、自定义文档库等功能。
+        影像科医生移动办公，影像数据上“云”
       </li>
       <li>
-        事务管理：包括todo管理，我的任务、我的Bug、我的需求、我的项目等个人事务管理功能。
+        打破传统，突破局限，“云”非凡
       </li>
       <li>
-        组织管理：包括部门、用户、分组、权限等功能。
+        患者个人影像数据自我管理，可随时随处调阅，体验“云”自在
       </li>
     </ol>
     <h4 class="title">【产品框架图】</h4>
-    <div style="text-align: center">
-      <img src="../../assets/pm_icon.png" style="max-width: 90%;"></img>
+    <div style="text-align: left; margin: 10px 0px 0px 10%;">
+      <img src="../../assets/cart/image.png" style="max-width: 100%;" />
     </div>
   </div>
 </template>
@@ -54,6 +54,9 @@
       letter-spacing: 1px;
       color: #061325;
       line-height: 25px;
+      background-color: #fff;
+      padding:30px;
+      margin-bottom: 15px;
     }
 
     .image .title{

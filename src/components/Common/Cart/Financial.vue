@@ -68,6 +68,7 @@
     border: solid 1px #ddd;
     width: 100%;
     padding: 30px 20px;
+    background-color: #fff;
   }
 
   .financial .financial_icon {
@@ -76,7 +77,7 @@
   }
 
   .financial .financial_msg p {
-    color: #ccc;
+    color: #5e5e5e;
   }
 
   .financial .financial_msg h3 {

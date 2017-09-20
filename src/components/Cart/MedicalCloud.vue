@@ -1,4 +1,3 @@
-
 <template>
   <div class="medicalCloud">
     <div class="row medicalCloud_Category">
@@ -13,7 +12,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/image')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -40,7 +39,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/his')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -67,7 +66,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/Cpoe')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -94,7 +93,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/Cis')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -120,7 +119,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/Erm')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -145,7 +144,13 @@
 <script>
 
   export default {
-    name: "medicalCloud"
+    name: "medicalCloud",
+    methods: {
+      learnMoreFun: function (path) {
+        this.$router.push({path: path})
+        document.body.scrollTop = 0+'px';
+      }
+    }
   }
 </script>
 

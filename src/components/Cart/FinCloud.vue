@@ -70,7 +70,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/eCommerce')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -97,7 +97,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/userSystem')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -124,7 +124,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/clientSystem')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -158,7 +158,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/bigSystem')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -184,7 +184,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/inventSystem')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -217,7 +217,7 @@
             </div>
 
             <div class="category_more_cat">
-              <div class="pull-left category_more">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/exchangeSystem')">
                 <a>
                   <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
                   了解更多
@@ -247,6 +247,7 @@
     methods: {
       learnMoreFun: function (path) {
         this.$router.push({path: path})
+        document.body.scrollTop = 0+'px';
       }
     }
   }
