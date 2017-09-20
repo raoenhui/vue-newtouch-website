@@ -7,16 +7,14 @@
         <a href="">{{titleName}}</a>
       </div>
     </div>
-    <div class="financialBg" v-show="showBg" v-bind:style="{ background: bgColor}">
+    <div class="financialBg" v-bind:style="{ background: bgColor}">
       <div class="content">
         <img :src="srcBg" v-show="srcBg"/>
       </div>
     </div>
     <div class="content">
       <div class="program-nav">
-        <router-link to="/program/scheme">
-          <div class="program-nav-line program-nav-headtit" @click="showBgFun('scheme')">行业解决方案</div>
-        </router-link>
+        <div class="program-nav-line program-nav-headtit" @click="showBgFun('scheme')">行业解决方案</div>
         <router-link to="/program/financial">
           <div class="program-nav-line" @click="showBgFun('financial')">金融</div>
         </router-link>
@@ -55,8 +53,7 @@
     name: 'program',
     data () {
       return {
-        showBg: false,
-        titleName:'',
+        titleName: '',
         path: '',
         //背景图片
         srcBg: '',
@@ -64,61 +61,51 @@
         dataObj: {
           'scheme': {
             bgColor: '#061325',
-            title:''
+            title: ''
           }, 'financial': {
             bgColor: 'rgb(14, 88, 136)',
-            title:'金融'
+            title: '金融'
           }, 'telecom': {
             bgColor: '#5eb4e7',
-            title:'电信'
+            title: '电信'
           }, 'government': {
             bgColor: '#126fa2',
-            title:'政府公众'
+            title: '政府公众'
           }, 'business': {
             bgColor: '#1fafc1',
-            title:'商业连锁'
+            title: '商业连锁'
           }, 'transportation': {
             bgColor: '#165e73',
-            title:'交通运输'
+            title: '交通运输'
           }, 'medical': {
             bgColor: '#99c75d',
-            title:'医疗卫生'
+            title: '医疗卫生'
           }, 'made': {
             bgColor: '#768f9b',
-            title:'制造业'
+            title: '制造业'
           }, 'messages': {
             bgColor: '#1496a6',
-            title:'企业信息化'
+            title: '企业信息化'
           },
         }
       }
     },
     methods: {
       showBgFun: function (path) {
-        if (path == "scheme") {
-          this.showBg = false;
-        } else {
-          this.showBg = true;
-          this.srcBg = require(`../assets/${path}_bg.png`);
-        }
-
+        this.srcBg = require(`../assets/${path}_bg.png`);
         if (this.dataObj[path])
-            this.bgColor=this.dataObj[path].bgColor;
-            this.titleName=this.dataObj[path].title;
+          this.bgColor = this.dataObj[path].bgColor;
+        this.titleName = this.dataObj[path].title;
       }
     },
     mounted: function () {
-          if(this.$route.path=="/program/scheme"){
-            this.showBg=false;
-          }else{
-            this.showBg=true;
-            var path=this.$route.path.split('/')[2];
-            if(path){
-              this.srcBg = require(`../assets/${path}_bg.png`);
-              this.bgColor=this.dataObj[path].bgColor;
-              this.titleName=this.dataObj[path].title;
-            }
-          }
+      var path = this.$route.path.split('/')[2];
+      if (path) {
+        this.srcBg = require(`../assets/${path}_bg.png`);
+        this.bgColor = this.dataObj[path].bgColor;
+        this.titleName = this.dataObj[path].title;
+      }
+
     }
   }
 </script>
@@ -126,19 +113,19 @@
 
 <style scoped>
 
-  .header-content{
-    width:100%;
+  .header-content {
+    width: 100%;
     height: 50px;
     line-height: 50px;
     background: #ececec;
   }
 
-  .header-content .page-local{
+  .header-content .page-local {
     width: 1200px;
     margin: 0px auto;
   }
 
-  .header-content .page-local a{
+  .header-content .page-local a {
     padding-right: 10px;
   }
 
@@ -148,14 +135,14 @@
 
   .program .program-nav {
     width: 250px;
-    margin-top: 70px;
-    position: absolute;
     top: 0;
     background: #fff;
+    float: left;
+    margin-top: 20px;
   }
 
   .program .program-nav a.router-link-active > .program-nav-line:not(.program-nav-headtit) {
-    border-left: 5px solid #092d44;
+    border-left: 5px solid #00beff;
   }
 
   .program .program-nav .program-nav-line {
@@ -164,11 +151,11 @@
     border-bottom: #ccc 1px solid;
     border-left: #ccc 1px solid;
     border-right: #ccc 1px solid;
-    color:#022330;
+    color: #022330;
   }
 
   .program .program-nav .program-nav-line.program-nav-headtit {
-    background: #092d44;
+    background: #343434;
     border: none;
     color: #fff;
   }
