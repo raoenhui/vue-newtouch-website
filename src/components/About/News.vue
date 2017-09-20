@@ -119,13 +119,14 @@
 
   .aboutNews .news:hover{
     cursor: pointer;
-    border:solid 1px #4178BE;
-    box-shadow: 0 0 20px #4178BE;
+    border:solid 1px #00BEFF;
+    box-shadow: 0 0 15px #00BEFF;
   }
 
   .aboutNews .panel-body h4{
     margin-top: 0px;
     margin-bottom: 10px;
+    color: #202020;
   }
 
   .aboutNews .panel-body span{

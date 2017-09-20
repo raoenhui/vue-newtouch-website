@@ -63,6 +63,10 @@
     padding-left: 20px;
   }
 
+  .aboutNewDetail .panel-default>.panel-heading nav .page li a{
+    color:#00beff;
+  }
+
   .aboutNewDetail .panel-default .panel-body{
     padding: 40px 7%;
     margin: 0px auto;

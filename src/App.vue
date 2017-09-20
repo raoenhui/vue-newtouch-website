@@ -39,16 +39,12 @@
         <div class="footer-i">
             <div class="pull-left weichat">
               <i class="fa fa-weixin" aria-hidden="true"></i>
-              <span class="arrow-left">
-                <!--向左的三角-->
-              </span>
+              <span class="arrow-left"></span><!--向左的三角-->
               <img src="./assets/weibo2.png" width="100" height="100"/>
             </div>
             <div class="pull-left">
               <i class="fa fa-weibo" aria-hidden="true"></i>
-              <div class="arrow-left">
-                <!--向左的三角-->
-              </div>
+              <span class="arrow-left"></span>
               <img src="./assets/webIcon.png" />
             </div>
         </div>
@@ -163,7 +159,7 @@
   .footer .content .footer-i{
     color: #fff;
     text-align: left;
-    margin-top: 4%;
+    margin-top: 3%;
     float: right;
   }
 
