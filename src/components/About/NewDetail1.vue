@@ -38,7 +38,7 @@
 
 <script>
   export default {
-    name: 'newDetail'
+    name: 'newDetail1'
   }
 </script>
 
