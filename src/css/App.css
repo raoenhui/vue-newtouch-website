@@ -27,6 +27,11 @@ body{
   width: 1000px;
   margin: 0 auto;
 }
+
+.contentMin {
+  width: 1000px;
+  margin: 0 auto;
+}
 .marginCenter{
   margin: 0 auto;
 }
@@ -56,3 +61,4 @@ ul li{
 .padding-top-30{
   padding-top: 30px;
 }
+

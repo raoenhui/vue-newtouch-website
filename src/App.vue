@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <header class="header">
-
       <div class="header-con">
         <div class="header-nav clearfix">
           <router-link to="/"><img src="./assets/logo.png"></router-link>
           <router-link to="/program"><div class="header-nav-line">行业解决方案</div></router-link>
-          <div class="header-nav-line"><a href="http://fic.newtouch.com">金融云</a></div>
-          <div class="header-nav-line"><a href="http://mc.newtouch.com/#/-1">医疗云</a></div>
-          <div class="header-nav-line"><a href="http://ecc.newtouch.com/index">企业云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://fic.newtouch.com">金融云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://mc.newtouch.com/#/-1">医疗云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://ecc.newtouch.com/index">企业云</a></div>
           <router-link to="/cart"><div class="header-nav-line">
             新致商城
           </div></router-link>
@@ -65,6 +64,7 @@
 
 <style scoped>
   /*公共css*/
+  @import './css/Icomoon.css';
   @import './css/App.css';
   #app {
     -webkit-font-smoothing: antialiased;
@@ -78,6 +78,7 @@
   .header {
     background: #343434;
     height: 80px;
+    border-bottom: #4e4e4e 1px solid;
   }
 
   .header .header-con {
