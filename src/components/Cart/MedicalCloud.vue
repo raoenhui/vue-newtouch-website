@@ -318,6 +318,32 @@
           </div>
         </div>
 
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/pharmacy.png" style="width:15%;"/>
+              <h3>云药房药库管理系统</h3>
+              <p>云药房药库管理系统是新致医疗研发的基于云计算的新一代药房药库系统,采用B/S架构，适合医院、药房、门诊、药库、中小医院、私营医院、乡镇医院、药店等各类医药卫生行业。系统可划分一个药库和多个药房，药房可以自定义N个，可以定义任何形式、任何性质的药房。包括进货入库，盘点入库，库存状况、库存不足、库存积压和有效期报警，药品出库，报损出库。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/pharmacy')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

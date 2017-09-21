@@ -1,7 +1,7 @@
 <template>
   <div class="bigData clearfix">
     <div class="content_title pull-left">
-      <img src="../../assets/image1.png" class="pull-left"/>
+      <img src="../../assets/cart/bigData.png" class="pull-left"/>
       <h4 class="pull-left" style="margin-top: 35px; position:relative;padding-left: 5px;" >
         大数据挖掘和分析
       </h4>
@@ -38,6 +38,11 @@
   .bigData .content_title{
     margin-bottom:20px ;
     width: 100%;
+  }
+
+  .bigData .content_title img{
+    max-width: 60px;
+    margin-right: 5px;
   }
 
   .bigData{

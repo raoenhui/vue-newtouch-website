@@ -46,6 +46,11 @@
     width: 100%;
   }
 
+  .ops .content_title img{
+    max-width: 60px;
+    margin-right: 5px;
+  }
+
   .ops{
     letter-spacing: 1px;
     color: #061325;

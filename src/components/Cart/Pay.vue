@@ -1,7 +1,7 @@
 <template>
-  <div class="disasterCloud clearfix">
+  <div class="pay clearfix">
     <div class="content_title pull-left">
-      <img src="../../assets/image1.png" class="pull-left"/>
+      <img src="../../assets/cart/pay.png" class="pull-left"/>
       <h4 class="pull-left" style="margin-top: 35px; position:relative;padding-left: 5px;" >
         云支付平台
       </h4>
@@ -33,18 +33,23 @@
 
 <script>
   export default {
-    name: 'disasterCloud'
+    name: 'pay'
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .disasterCloud .content_title{
+  .pay .content_title{
     margin-bottom:20px ;
     width: 100%;
   }
 
-  .disasterCloud{
+  .pay .content_title img{
+    max-width: 60px;
+    margin-right: 5px;
+  }
+
+  .pay{
     letter-spacing: 1px;
     color: #061325;
     line-height: 25px;
@@ -53,11 +58,11 @@
     margin-bottom: 15px;
   }
 
-  .disasterCloud .title{
+  .pay .title{
     padding: 20px 0px;
   }
 
-  .disasterCloud li{
+  .pay li{
     margin-bottom: 15px;
   }
 </style>

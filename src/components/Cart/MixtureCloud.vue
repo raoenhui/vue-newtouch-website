@@ -1,7 +1,7 @@
 <template>
   <div class="mixtureCloud clearfix">
     <div class="content_title pull-left">
-      <img src="../../assets/image1.png" class="pull-left"/>
+      <img src="../../assets/cart/mixtureCloud.png" class="pull-left"/>
       <h4 class="pull-left" style="margin-top: 35px; position:relative;padding-left: 5px;" >
         混合云
       </h4>
@@ -42,6 +42,11 @@
   .mixtureCloud .content_title{
     margin-bottom:20px ;
     width: 100%;
+  }
+
+  .mixtureCloud .content_title img{
+    max-width: 60px;
+    margin-right: 5px;
   }
 
   .mixtureCloud{
