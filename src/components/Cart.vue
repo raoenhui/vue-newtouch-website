@@ -142,6 +142,10 @@
     margin: 0 !important;
   }
 
+  .total-container h4 a{
+    color: #343434;
+  }
+
   .panel-heading {
     height: 40px;
     line-height: 40px;
@@ -151,7 +155,7 @@
   }
 
   .panel-heading.active {
-    border-left: #06497E 5px solid;
+    border-left: #00BEFF 5px solid;
   }
 
   .total-container {
@@ -189,7 +193,7 @@
     height: 40px;
     color: #fff;
     line-height: 40px;
-    background-color: #06497E;
+    background-color: #343434;
     padding-left: 15px;
   }
 

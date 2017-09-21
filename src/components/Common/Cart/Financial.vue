@@ -112,8 +112,8 @@
   }
 
   .financial .goods_size a.active {
-    color: #06497E;
-    border: solid 1px #06497E;
+    color: #00BEFF;
+    border: solid 1px #00BEFF;
   }
 
   .financial .goods_size span {
@@ -124,12 +124,18 @@
     border: solid 1px #cccccc;
     padding: 10px 15px;
     margin-right: 15px;
+    color: #cccccc;
   }
 
   .financial .btn-primary, .btn-danger {
     border-radius: 0px;
     padding: 8px 12px;
     margin-right: 10px;
+  }
+
+  .financial .btn-primary{
+    background-color:#00BEFF;
+    border-color:#00BEFF;
   }
 
   .financial .goods_detail {

@@ -13,7 +13,7 @@
           </div>
           <div class="goods_size">
             <span style="margin-right:15px ">规格</span>
-            <a>普通版</a>
+            <a class="active">普通版</a>
             <a>旗舰版</a>
           </div>
           <div class="buys_goods">
@@ -151,12 +151,23 @@
     border: solid 1px #cccccc;
     padding:10px 15px;
     margin-right: 15px;
+    color: #cccccc;
+  }
+
+  .goods_size a.active {
+    color: #00BEFF;
+    border: solid 1px #00BEFF;
   }
 
   .btn-primary,.btn-danger{
     border-radius: 0px;
     padding: 8px 12px;
     margin-right: 10px;
+  }
+
+  .btn-primary{
+    background-color: #00BEFF;
+    border-color: #00BEFF;
   }
 
   .goods_detail{

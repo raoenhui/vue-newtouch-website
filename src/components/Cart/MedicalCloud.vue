@@ -136,6 +136,188 @@
           </div>
         </div>
 
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/privateCloud.png" style="width:15%;"/>
+              <h3>私有云</h3>
+              <p>以OpenStack为云管理平台，以Hypervisor KVM为虚拟化引擎，以CEPH分布式存储为存储集群为医疗行业提供私有云解决方案，提供各类计算服务、资源和管理系统，并帮助医疗卫生机构和医院实现数据高安全性，充分利用现有硬件资源和软件资源，保证服务质量。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/PrivateCloud')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/mixtureCloud.png"  style="width:15%;"/>
+              <h3>混合云</h3>
+              <p>新致混合云提供了云平台和医院私有设备托管的混合部署模式，既解决医院数据安全性痛点又实现应用的按需分配和弹性扩展，大大缩短了医院IT部署时间，降低了运维成本，改善了医院应用的可靠性和可用性。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/mixtureCloud')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/disasterCloud.png" style="width:15%;"/>
+              <h3>云备灾</h3>
+              <p>利用信息化的云技术，简化操作流程和物理机的损耗，数据保护工作灵敏度增高，达到实时同步备份的效果。告别原定时增量的模式，形成实时备份、实时数据保护、实时接管的信息网络化科学管理模式。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/disasterCloud')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/bigData.png" style="width:15%;"/>
+              <h3>大数据挖掘和分析</h3>
+              <p>利用信息化的云技术，简化操作流程和物理机的损耗，数据保护工作灵敏度增高，达到实时同步备份的效果。告别原定时增量的模式，形成实时备份、实时数据保护、实时接管的信息网络化科学管理模式。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/bigData')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/image5.png" style="width:15%;"/>
+              <h3>上云咨询服务</h3>
+              <p>医疗行业需要迅速扩张的弹性平台，提供协同的工作平台，科室间协作的云解决方案，医院信息化需要最经济、最灵活的平台支撑创新和变革。新致医疗云根据云产品特点及医疗场景设计软件及系统云架构、并提升医疗IT治理水平，以满足弹性、高可用、高性能等需求。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/consult')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/image5.png" style="width:15%;"/>
+              <h3>云运维服务</h3>
+              <p>依托监控、告警、日志、报告工具，全面监控发现网络故障，建立主动运维服务缓解设备宕机引起的医患矛盾。增加分支机构时，只需在网络上安装网管机，就可监管系统，过程简单高效。云计算降低成本，将本地工作转移到云端，工作量减少，成本降低。可将人力投入医生和患者端。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/ops')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding: 5px 5px 20px;">
+          <div class="medicalCloudlist">
+            <div class="Category_msg">
+              <img src="../../assets/cart/pay.png" style="width:15%;"/>
+              <h3>云支付</h3>
+              <p>建立安全支付联盟，提供用户身份识别，加强信息安全与隐私保护，确保交易安全，以及交易行为受到监控及识别。</p>
+            </div>
+
+            <div class="category_more_cat">
+              <div class="pull-left category_more" @click="learnMoreFun('/cart/pay')">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-info-sign" ></span></div>
+                  了解更多
+                </a>
+              </div>
+              <div class="pull-left category_cat">
+                <a>
+                  <div style="min-height: 26px;"><span class="glyphicon glyphicon-shopping-cart"></span></div>
+                  购物
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -190,7 +372,7 @@
   }
 
   .medicalCloud .medicalCloud_Category .category_more_cat .category_cat{
-    background-color: #4178BE;
+    background-color: #00BEFF;
   }
   .medicalCloud .medicalCloud_Category .category_more_cat .category_cat span{
     font-size: 1.3em;
