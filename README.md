@@ -3,11 +3,11 @@
 ## Build Setup
 
 ``` bash
-#启动
-npm start
-
 #安装
 npm install
+
+#启动
+npm start
 
 # 打包启动
 npm run prod

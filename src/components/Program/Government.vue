@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ProgramItem :dataObj="dataObj" v-for="dataObj in datas"/>
+    <ProgramItem :dataObj="dataObj" v-for="(dataObj,index) in datas" :key="index"/>
   </div>
 </template>
 
