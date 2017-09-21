@@ -30,6 +30,7 @@ import Ops from '@/components/Cart/Ops'
 import Pay from '@/components/Cart/Pay'
 import Cpoe from '@/components/Cart/Cpoe'
 import Cis from '@/components/Cart/Cis'
+import Pharmacy from '@/components/Cart/Pharmacy'
 import Erm from '@/components/Cart/Erm'
 import Pm from '@/components/Cart/Pm'
 import BigSystem from '@/components/Cart/BigSystem'
@@ -178,6 +179,9 @@ export default new Router({
         {
           path: 'cis',
           component: Cis
+        }, {
+          path: 'pharmacy',
+          component: Pharmacy
         },
         {
           path: 'erm',

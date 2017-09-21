@@ -64,7 +64,7 @@
 
 <style scoped>
   /*公共css*/
-  /*@import './css/Icomoon.css';*/
+  @import './css/Icomoon.css';
   @import './css/App.css';
   #app {
     -webkit-font-smoothing: antialiased;

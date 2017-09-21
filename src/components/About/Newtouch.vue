@@ -131,22 +131,23 @@
               <h2>价值观</h2>
               <div class="values_item col-md-3">
                 <h3 class="values_tit">合作</h3>
-                <p><i class="fa fa-handshake-o" aria-hidden="true"></i></p>
+                <p><span class="icon-cooperation"></span>
+                </p>
                 <div class="values_detail">新致的事业本身就是建立在与客户、员工、投资者、供应商，及政府、行业协会和金融机构等合作的基础上。我们一直尽心尽力地为合作伙伴的长远利益而努力，从而增进相互间的信任，维护好共赢的合作模式。所有曾经为我们事业的成功而做出贡献的合作伙伴，均会因新致的成功获得价值。</div>
               </div>
               <div class="values_item col-md-3">
                 <h3 class="values_tit">诚信</h3>
-                <p><i class="fa fa-child" aria-hidden="true"></i></p>
+                <p><span class="icon-respect"></span>
                 <div class="values_detail">诚信是我们的事业得以发展和成功的根本。新致一向言必信、行必果，信守承诺，坚持做到兑现大于等于承诺。新致追求的成功并非是单纯经济意义上的成功，更有我们赢得的广泛的尊敬、信任和良好的商誉。</div>
               </div>
               <div class="values_item col-md-3">
                 <h3 class="values_tit">尊重</h3>
-                <p><i class="fa fa-balance-scale" aria-hidden="true"></i></p>
+                <p><span class="icon-response"></span>
                 <div class="values_detail">尊重并肯定每位员工的独特性。每一位个人都应获取尊重、获得公平的对待以及拥有发挥能力、达致成功的机会。新致不断为他们提升竞争力和事业发展提供机会，为他们的贡献给予信守承诺的回报。</div>
               </div>
               <div class="values_item col-md-3">
                 <h3 class="values_tit">负责</h3>
-                <p><i class="fa fa-user-o" aria-hidden="true"></i></p>
+                <p><span class="icon-sincerity"></span>
                 <div class="values_detail">每个人都应尽力尽责实现自己的目标，也应全力以赴帮助公司、客户和其他合作伙伴实现共同的目标。新致关注客户需求，尊重客户投资，不断为客户创造价值；持续改进公司经营结果，为投资者带来长期良好的回报。新致有社会责任感，遵守法律，保护环境，实现企业成长与社会发展的和谐。</div>
               </div>
             </div>
@@ -877,7 +878,7 @@
     color: #fff;
   }
 
-  .values .values_item p i{
+  .values .values_item p > span {
     font-size: 3.7em;
   }
 

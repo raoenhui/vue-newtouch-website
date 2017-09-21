@@ -1,7 +1,5 @@
 <template>
-  <div class="main"> <span class="icon-nt-code">
-
-                </span>
+  <div class="main">
     <div id="carousel1" class="carousel slide" data-ride="carousel">
       <!--&lt;!&ndash; Indicators &ndash;&gt;-->
       <ol class="carousel-indicators">
