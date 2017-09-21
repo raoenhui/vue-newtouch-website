@@ -11,21 +11,62 @@
       </ul>
       <div class="tab-pane-con">
         <div class="tab-pane-con-tab clearfix companyInfo">
-          <article class="Info_content article">
-            上海新致软件有限公司成立于1994年，是一家高科技企业。2002年起至今每年被认定为“国家规划布局内重点软件企业”；2004年首批获得“A级中国软件欧美出口工程试点企业认定”，公司整体通过CMMI5评估。
+          <article class="Info_content article row">
+            <div class="col-md-3" style="padding: 0px;text-align: center; margin-top: 1%;"><img src="../../assets/about/newtouch_logo.png" alt="..."></div>
+            <div class="col-md-9">上海新致软件有限公司成立于1994年，是一家高科技企业。2002年起至今每年被认定为“国家规划布局内重点软件企业”；2004年首批获得“A级中国软件欧美出口工程试点企业认定”，公司整体通过CMMI5评估。
             新致软件是一家信息技术服务供应商、多个行业提供咨询、设计、实施、测试、支持、培训等专业的解决方案。
-          </article>
-
-          <article class="Info_content">
-            <img src="../../assets/info_banner.png" alt="...">
-          </article>
-
-          <article class="Info_content">
-            <div class="share-con">
-              <img src="../../assets/info1.png">
-              <img src="../../assets/info2.png">
-              <img src="../../assets/info3.png">
             </div>
+          </article>
+
+          <article class="Info_content row">
+            <ul>
+              <li >
+                <div class="col-md-3"><i class="fa fa-cube" aria-hidden="true"></i></div>
+                <div class="col-md-9">
+                    新致以软件技术为核心，<br/>
+                    通过软件与服务的结合，技术与业务的融合， <br/>
+                    提供行业解决方案和信息服务外包以及相关软件产品、平台及服务。
+                </div>
+              </li>
+              <li>
+                <!--<i class="fa fa-handshake-o" aria-hidden="true"></i> 握手  <i class="fa fa-users" aria-hidden="true"></i> 2 <i class="fa fa-cubes" aria-hidden="true"></i> 3 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>4-->
+                <div class="col-md-3"><i class="fa fa-users" aria-hidden="true"></i></div>
+                <div class="col-md-9">
+                  面向行业客户，我们满足客户需求，提供安全、可靠、高质量、易扩展的解决方案，包括为行业客户量<br/>
+                  设定做的应用和通过客户服务网络提供的专业服务，帮助客户实现信息化管理的最佳实践，并持续提高<br/>
+                  技术先进性和管理先进性。
+                </div>
+              </li>
+              <li >
+                <div class="col-md-3"><i class="fa fa-cubes" aria-hidden="true"></i></div>
+                <div class="col-md-9">
+                  行业解决方案所涵盖的领域包括：金融、电信、政府公众、商业连锁、交通运输、医疗卫生、制造业和<br/>
+                  企业信息化等行业，凭借多年与各行业主流企业进行合作所积累的经验，新致公司已具备了信息技术与<br/>
+                  现代管理相结合、项目规划咨询和工程实施相结合、软件构件化和制定设计相结合的核心竞争能力。<br/>
+                </div>
+              </li>
+
+              <li >
+                <div class="col-md-3"><i class="fa fa-handshake-o" aria-hidden="true" style="margin-top: 45px;"></i> </div>
+                <div class="col-md-9">
+                  在信息服务外包领域中，凭借多年以来国际化客户提供开发、维护、测试服务的经验和知识，新致建立<br/>
+                  并完善了在岸、近岸、离岸的多层次混合服务模式，在全国范围内向客户提供覆盖应用开发与维护项目<br/>
+                  全生命周期的服务。我们服务的行业有：银行、证券、保险、电信、公共事业、制造、医疗、交通、物<br/>
+                  流、食品。服务模式包括：项目开发、人员派遣、离岸开发中心、业务流程外包、IT业务咨询、IT教育<br/>
+                  培训、系统集成、技术支持等。十多年国外众多行业的项目经验，综合的信息技术能力、高效的离岸交<br/>
+                  付能力、以及软件制造过程的精细化管理能力，是选择新致作为合作伙伴的重要理由。
+                </div>
+              </li>
+
+              <li >
+                <div class="col-md-3"><i class="glyphicon glyphicon-heart" aria-hidden="true"></i></div>
+                <div class="col-md-9">
+                  新致以”日新以致远“作为公司的核心理念和品牌承诺。作为一家以软件技术为核心的公司，新致通过<br/>
+                  合作创新、有效管理、人才发展等战略的实施，持续提升公司的核心竞争力，不断为客户创造价值，为<br/>
+                  员工创造机会，从而实现对社会的积极贡献。<br/>
+                </div>
+              </li>
+            </ul>
           </article>
 
         </div>
@@ -543,7 +584,7 @@
   }
 
   .aboutNewtouch .tab-pane {
-    background: #4178BE;
+    background: #00BEFF;
   }
 
   .aboutNewtouch .tab-pane li {
@@ -572,17 +613,41 @@
   .companyInfo .Info_content {
     width: 1030px;
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 20px 0px;
     margin: 0 auto;
   }
 
   .companyInfo .article.Info_content {
     text-align: left;
-    text-indent: 27px;
+    /*text-indent: 27px;*/
   }
 
-  .companyInfo .Info_content .share-con {
-    text-align: center;
+  .companyInfo .article.Info_content p{
+    width: 70%;
+  }
+
+  .companyInfo .Info_content ul li{
+    background-color: #fff;
+    border:#eee 1px solid;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .companyInfo .Info_content ul li .col-md-3{
+    padding: 0px;text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .companyInfo .Info_content ul li .col-md-3 i{
+    font-size: 5em;
+    color: #00BEFF
+  }
+
+  .companyInfo .Info_content ul li .col-md-9{
+    /*padding: 20px;*/
+    text-align: left;
   }
 
   /*公司简历 end*/
@@ -599,7 +664,7 @@
   }
 
   .aboutNewtouch .aboutNewtouch-addressDiv .aboutNewtouch-addressDiv-link {
-    color: #4178be;
+    color: #00BEFF;
     cursor: pointer;
   }
 
@@ -695,15 +760,15 @@
   }
 
   .attestation .attestation-part ul li.active a{
-    color: #4178BE !important;
+    color: #00BEFF !important;
   }
 
   .attestation .attestation-part ul li a:hover{
-    color:#023041;
+    color:#023041 !important;
   }
 
   .attestation .attestation-part ul li a{
-    color: #4178BE;
+    color: #00BEFF;
   }
 
   /*企业文化end*/
@@ -712,7 +777,7 @@
     width: 500px;
     margin: 0px auto !important;
     text-align: left;
-    color: #31397a;
+    color: #353535;
     padding-left: 100px;
   }
 
@@ -730,7 +795,7 @@
     z-index: 0;
     width: 2px;
     height: 100%;
-    background-color: #040d5f;
+    background-color: #00BEFF;
   }
 
   .aboutNewtouch .aboutNewtouch-timeline-item.last:before {
@@ -749,6 +814,7 @@
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
+    color:#00BEFF ;
   }
 
   .aboutNewtouch .aboutNewtouch-timeline .aboutNewtouch-timeline-content {
