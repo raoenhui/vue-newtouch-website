@@ -1,113 +1,25 @@
 <template>
-  <div class="main">
-      <div class="scheme_list">
-          <div class="scheme financial">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme telecom">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme government">
-            <div class="more_btn"><a href="#" class="more">了解更多</a ><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme business">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme transportation">
-            <div class="more_btn" ><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme medical">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme made">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-          <div class="scheme messages">
-            <div class="more_btn"><a href="#" class="more">了解更多</a><a href="#" class="online">在线咨询</a></div>
-          </div>
-      </div>
+  <div>
+    <ProgramItem :dataObj="dataObj" v-for="(dataObj,index) in datas" :key="index"/>
   </div>
 </template>
 
 <script>
+  import ProgramItem from '../Common/Program/Item.vue'
   export default {
-    name: 'scheme',
     data () {
       return {
-        msg: ''
+        datas: [{
+          icon: 'fa fa-cube',
+          title: '全面预算管理系统解决方案',
+          detail: '全面预算管理作为对现代企业成熟与发展起过重大推动作用的管理系统，是企业内部管理控制的一种主要方法。从最初的计划、协调、发展到现在的兼具控制、激励、评价等诸多功能的一种综合贯彻企业经营战略的管理工具，全面预算管理在企业内部控制中日益发挥核心作用.'
+        }, {
+          icon: 'fa fa-cubes',
+          title: '财务共享业财作业平台解决方案',
+          detail: '财务共享业财作业平台解决方案利用IT技术成财务报账、预算管控和财务核算是资金支付业务，依据行业标准和企业的相关业务规定，梳理和优化财务集中管理的各项业务流程，促进财务合算的额效率以及管理的细化。'
+        }]
       }
-    }
+    },
+    components: {ProgramItem}
   }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  .scheme_list{
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .scheme_list .scheme{
-      width: inherit;
-      display: block;
-      width: 100%;
-      height: 220px;
-      margin-bottom: 20px;
-      position: relative;
-      background-size:cover;
-      background-repeat:no-repeat;
-  }
-
-  .scheme_list .financial{
-      background-image:url(../../assets/financial_bg.png);
-  }
-
-  .scheme_list .telecom{
-    background-image:url('../../assets/telecom_bg.png');
-  }
-
-  .scheme_list .government{
-    background-image:url('../../assets/government_bg.png');
-  }
-
-  .scheme_list .business{
-    background-image:url('../../assets/business_bg.png');
-  }
-
-  .scheme_list .transportation{
-    background-image:url('../../assets/transportation_bg.png');
-  }
-
-  .scheme_list .medical{
-    background-image:url('../../assets/medical_bg.png');
-  }
-
-  .scheme_list .made{
-    background-image:url('../../assets/made_bg.png');
-  }
-
-  .scheme_list .messages{
-    background-image:url('../../assets/messages_bg.png');
-  }
-
-  .scheme_list .scheme .more_btn{
-    position: absolute;
-    bottom: 30px;
-    left: 10%;
-  }
-
-  .more_btn a{
-    display: inline-block;
-    padding: 9px 30px;
-    color: #fff;
-    margin-right: 20px;
-  }
-
-  .more_btn .more{
-      background: #022330;
-  }
-
-  .more_btn .online{
-      background:#B5C5C6;
-  }
-</style>
