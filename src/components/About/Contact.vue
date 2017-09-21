@@ -42,7 +42,7 @@
   }
 
   .aboutContact .aboutContact-addressDiv .aboutContact-addressDiv-link {
-    color: #242B6F;
+    color: #343434;
     cursor: pointer;
     margin-bottom: 40px;
   }
