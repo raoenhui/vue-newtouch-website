@@ -70,38 +70,6 @@ export default new Router({
           path: 'financial',
           component: Financial
         },
-
-        /*行业解决方案delete start*/
-        {
-          path: 'telecom',
-          component: Financial
-        },
-        {
-          path: 'business',
-          component: Financial
-        },
-        {
-          path: 'government',
-          component: Financial
-        },
-        {
-          path: 'made',
-          component: Financial
-        },
-        {
-          path: 'medical',
-          component: Financial
-        },
-        {
-          path: 'messages',
-          component: Financial
-        },
-        {
-          path: 'transportation',
-          component: Financial
-        },
-        /*行业解决方案delete end*/
-        /*行业解决方案 start*/
         {
           path: 'telecom',
           component: Telecom
@@ -130,7 +98,6 @@ export default new Router({
           path: 'transportation',
           component: Transportation
         }
-        /*行业解决方案 end*/
       ]
     },
     {

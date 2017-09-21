@@ -1,31 +1,17 @@
 # newtouch主站
 
-> A Vue.js project
-
 ## Build Setup
 
 ``` bash
 #启动
 npm start
 
-# install dependencies
+#安装
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+# 打包启动
+npm run prod
 ```
+###相关链接
+* [图标引用1]   <http://v3.bootcss.com/components/>
+* [图标引用2]   <http://fontawesome.io/icons/>

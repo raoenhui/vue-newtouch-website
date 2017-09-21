@@ -1,5 +1,7 @@
 <template>
-  <div class="main">
+  <div class="main"> <span class="icon-nt-code">
+
+                </span>
     <div id="carousel1" class="carousel slide" data-ride="carousel">
       <!--&lt;!&ndash; Indicators &ndash;&gt;-->
       <ol class="carousel-indicators">
@@ -12,7 +14,7 @@
         <div class="item active">
           <div class="carousel-con clearfix">
             <div class="carousel-con-lf">
-              <h2>新致软件满甘三</h2>
+              <h2>新致软件满廿三</h2>
               <h2>初心不忘再起航</h2>
             </div>
             <img src="../assets/index1.png" alt="...">
@@ -21,9 +23,9 @@
         <div class="item">
           <div class="carousel-con clearfix">
             <div class="carousel-con-lf">
-              <h2>走进新致商城</h2>
-              <h5>实现企业一站式进入云计算时代的可能</h5>
-              <router-link to="/cart" class="carousel-con-btn">查看详情</router-link>
+              <h2>行业解决方案</h2>
+              <h5>融入行业发展变化中，实现企业信息化管理的最佳实践</h5>
+              <router-link to="/program" class="carousel-con-btn">查看详情</router-link>
             </div>
             <img src="../assets/index2.png" alt="...">
           </div>
@@ -31,9 +33,9 @@
         <div class="item">
           <div class="carousel-con clearfix">
             <div class="carousel-con-lf">
-              <h2>行业解决方案</h2>
-              <h5>融入行业发展变化中，实现企业信息化管理的最佳实践</h5>
-              <router-link to="/program" class="carousel-con-btn">查看详情</router-link>
+              <h2>走进新致商城</h2>
+              <h5>实现企业一站式进入云计算时代的可能</h5>
+              <router-link to="/cart" class="carousel-con-btn">查看详情</router-link>
             </div>
             <img src="../assets/index3.png" alt="...">
           </div>
@@ -60,13 +62,13 @@
               <div class="carousel-promotion-tit">影像云</div>
               <div class="carousel-promotion-intro">从诊断前，诊断中，诊断后三个角度出发，以患者、医生、医院为中心，提供医疗影像诊断系统整体解决方案，帮助医疗机构加速进入“云”时代。
               </div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/finCloud')">了解更多</div>
             </div>
             <div class="carousel-promotion-item">
               <img src="../assets/promotion5.png" alt="...">
               <div class="carousel-promotion-tit">新致云CRM</div>
               <div class="carousel-promotion-intro">结合中小企业现状，采用科学的客户关系管理模型，完整的销售周期及售后管理让企业实际运作更加方便快捷。</div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/clientSystem')">了解更多</div>
             </div>
             <div class="carousel-promotion-item">
               <img src="../assets/promotion6.png" alt="...">
@@ -74,7 +76,7 @@
               <div class="carousel-promotion-intro">
                 全面打通投资人、管理人、托管人、投资标的多系统渠道通路，实现基于管理、估值、监督的托管业务环境，标准化管理人指令服务与投资人资产视图，构建多云环境的资管全生命周期协同平台。
               </div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/bigSystem')">了解更多</div>
             </div>
           </div>
         </div>
@@ -82,24 +84,27 @@
           <div class="carousel-promotion clearfix">
             <div class="carousel-promotion-item">
               <img src="../assets/promotion1.png" alt="...">
-              <div class="carousel-promotion-tit">影像云</div>
-              <div class="carousel-promotion-intro">从诊断前，诊断中，诊断后三个角度出发，以患者、医生、医院为中心，提供医疗影像诊断系统整体解决方案，帮助医疗机构加速进入“云”时代。
+              <div class="carousel-promotion-tit">掌E保</div>
+              <div class="carousel-promotion-intro">
+                一款用于智能手机及平板电脑上的app应用产品。主要面向保险营销员、经纪人或兼业代理。合理制订工作计划，更实时了解业绩情况、实时政策。让保险日常工作更便捷更高效。
               </div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/palm')">了解更多</div>
             </div>
             <div class="carousel-promotion-item">
               <img src="../assets/promotion2.png" alt="...">
-              <div class="carousel-promotion-tit">新致云CRM</div>
-              <div class="carousel-promotion-intro">结合中小企业现状，采用科学的客户关系管理模型，完整的销售周期及售后管理让企业实际运作更加方便快捷。</div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-tit">新致云PM</div>
+              <div class="carousel-promotion-intro">
+                新致云PM的设计理念是围绕产品展开的，集产品管理、项目管理、质量管理、文档管理、组织管理和事务管理于一体，是一款专业的研发项目管理软件，完整地覆盖了项目管理的核心流程。
+              </div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/pm')">了解更多</div>
             </div>
             <div class="carousel-promotion-item">
               <img src="../assets/promotion3.png" alt="...">
-              <div class="carousel-promotion-tit">大资管协同平台</div>
+              <div class="carousel-promotion-tit">云HIS</div>
               <div class="carousel-promotion-intro">
-                全面打通投资人、管理人、托管人、投资标的多系统渠道通路，实现基于管理、估值、监督的托管业务环境，标准化管理人指令服务与投资人资产视图，构建多云环境的资管全生命周期协同平台。
+                以门诊管理、住院管理、病人管理以及基础数据管理四大功能模块。基于云计算技术的低成本基层医疗信息系统，能够有效降低基层医疗单位信息化建设投入，减少系统的维护费用，统一监控平台，减少运维成本。
               </div>
-              <div class="carousel-promotion-btn">了解更多</div>
+              <div class="carousel-promotion-btn" @click="routerFun('/cart/his')">了解更多</div>
             </div>
           </div>
         </div>
@@ -133,6 +138,12 @@
     data () {
       return {
         msg: ''
+      }
+    },
+    methods: {
+      routerFun: function (path) {
+        this.$router.push({path: path});
+        document.body.scrollTop = 0;
       }
     },
     mounted: function () {
@@ -199,7 +210,7 @@
     height: 430px;
     position: relative;
     text-align: center;
-    border: 1px solid #bbb;
+    border: 1px solid #e2e2e2;
     float: left;
     padding: 20px;
   }
