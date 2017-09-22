@@ -105,9 +105,65 @@
                 <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
                 <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
               </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">大连新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：大连软件园东路21号12号楼301C室</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：0411-84768350；0411-84768351；0411-84768331</div>
+                <div class="aboutNewtouch-addressDiv-con">传真：0411-84768350-815</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：116023</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">大连亿蓝德信息科技有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：大连软件园东路21号12号楼301C室</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：0411-84768350；0411-84768351；0411-84768331</div>
+                <div class="aboutNewtouch-addressDiv-con">传真：0411-84768350-815</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：116023</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">西安新致信息技术有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：西安市高新区科技二路68号西安软件园秦风阁综合楼601室</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：029-87669728；029-81779891</div>
+                <div class="aboutNewtouch-addressDiv-con">传真：029-87669727</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：710075</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">深圳新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：深圳市福田区福田街道金田路4018号安联大厦26层2629室</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：0755-33955890</div>
+                <div class="aboutNewtouch-addressDiv-con">传真：0755-33955890</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：518026</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">新致软件（昆山）有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：花桥镇兆丰路8号</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
+                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">成都新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：成都市高新区科园二路10号2栋2单元10层2A号</div>
+                <div class="aboutNewtouch-addressDiv-con">联系电话：028-83378392</div>
+                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">成都新致远日软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：成都市高新区科园二路10号2栋2单元10层2A号</div>
+                <div class="aboutNewtouch-addressDiv-con">联系电话：028-83378392</div>
+                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
+              </div>
+              <div class="aboutNewtouch-addressDiv">
+                <div class="aboutNewtouch-addressDiv-link">日本东京newtouch株式会社&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
+                <div class="aboutNewtouch-addressDiv-con">地址：东京都品川区南品川二丁目2番13号</div>
+                <div class="aboutNewtouch-addressDiv-con">电话：（03）6433-2998</div>
+                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
+                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
+              </div>
             </div>
             <div class="col-md-6">
-              <img src="../../assets/about/map.png"/>
+              <img src="../../assets/about/newtouch-map.png"/>
             </div>
           </div>
           </div>

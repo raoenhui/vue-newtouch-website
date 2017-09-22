@@ -3,7 +3,7 @@
     <div class="row contentMin">
       <div class="aboutJoin_part">
         <div class="aboutJoin_titleIcon">
-          <img src="../../assets/about/join_icon1.png" />
+          <img src="../../assets/about/join-Campus-Recruiting.png" />
           <div class="aboutJoin_title">
               <p></p>
               <h4>社会招聘</h4>
@@ -24,7 +24,7 @@
 
       <div class="aboutJoin_part">
         <div class="aboutJoin_titleIcon">
-          <img src="../../assets/about/join_icon2.png" />
+          <img src="../../assets/about/join-Social-recruitment.png" />
           <div class="aboutJoin_title">
             <p></p>
             <h4>校园招聘</h4>

@@ -8,7 +8,7 @@
       <p>
         {{dataObj.detail}}
       </p>
-      <div class="programItem-btn"><a href="#">了解更多</a><a href="#">在线咨询</a></div>
+      <div class="programItem-btn"><a :href="dataObj.link">了解更多</a><a href="#">在线咨询</a></div>
     </div>
   </div>
 </template>
