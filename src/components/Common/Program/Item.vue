@@ -19,56 +19,6 @@
     props: ['dataObj'],
   }
 </script>
-<style>
-  .programItem {
-    background: #fff;
-    padding: 40px 0;
-    margin-bottom: 20px;
-    border: solid 1px #fff;
-  }
-
-  .programItem:hover {
-    border: solid 1px #00bfff;
-    -webkit-box-shadow: 0 0 20px #00bfff;
-    box-shadow: 0 0 20px #00bfff;
-  }
-
-  .programItem:hover .programItem-lf {
-    color: #00bfff;
-  }
-
-  .programItem .programItem-lf {
-    font-size: 100px;
-    float: left;
-    width: 240px;
-    text-align: center;
-  }
-
-  .programItem .programItem-rf {
-    float: left;
-    width: 533px;
-  }
-
-  .programItem .programItem-rf h3 {
-    margin-bottom: 20px;
-  }
-
-  .programItem .programItem-btn a {
-    width: 100px;
-    line-height: 40px;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .programItem .programItem-btn a:nth-child(1) {
-    background: #00bfff;
-    margin-right: 20px;
-  }
-
-  .programItem .programItem-btn a:nth-child(2) {
-    background: #b5c5c6;
-  }
-
+<style lang="scss" scoped>
+  @import "./Item.scss";
 </style>
