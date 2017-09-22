@@ -11,36 +11,45 @@
     </div>
     <div class="content clearfix">
     <div class="program-nav">
-            <div class="program-nav-line program-nav-headtit">行业解决方案</div>
-            <router-link to="/program/financial">
-              <div class="program-nav-line" @click="showBgFun('financial')">金融</div>
-            </router-link>
-            <router-link to="/program/telecom">
-              <div class="program-nav-line" @click="showBgFun('telecom')">电信</div>
-            </router-link>
-            <router-link to="/program/government">
-              <div class="program-nav-line" @click="showBgFun('government')">政府公众</div>
-            </router-link>
-            <router-link to="/program/business">
-              <div class="program-nav-line" @click="showBgFun('business')">商业连锁</div>
-            </router-link>
-            <router-link to="/program/transportation">
-              <div class="program-nav-line" @click="showBgFun('transportation')">交通运输</div>
-            </router-link>
-            <router-link to="/program/medical">
-              <div class="program-nav-line" @click="showBgFun('medical')">医疗卫生</div>
-            </router-link>
-            <router-link to="/program/made">
-              <div class="program-nav-line" @click="showBgFun('made')">制造业</div>
-            </router-link>
-            <router-link to="/program/messages">
-              <div class="program-nav-line" @click="showBgFun('messages')">企业信息化</div>
-            </router-link>
+        <div class="program-nav-line program-nav-headtit">行业解决方案</div>
+        <router-link to="/program/financial">
+          <div class="program-nav-line" @click="showBgFun('financial')">金融</div>
+        </router-link>
+        <router-link to="/program/telecom">
+          <div class="program-nav-line" @click="showBgFun('telecom')">电信</div>
+        </router-link>
+        <router-link to="/program/government">
+          <div class="program-nav-line" @click="showBgFun('government')">政府公众</div>
+        </router-link>
+        <router-link to="/program/business">
+          <div class="program-nav-line" @click="showBgFun('business')">商业连锁</div>
+        </router-link>
+        <router-link to="/program/transportation">
+          <div class="program-nav-line" @click="showBgFun('transportation')">交通运输</div>
+        </router-link>
+        <router-link to="/program/medical">
+          <div class="program-nav-line" @click="showBgFun('medical')">医疗卫生</div>
+        </router-link>
+        <router-link to="/program/made">
+          <div class="program-nav-line" @click="showBgFun('made')">制造业</div>
+        </router-link>
+        <router-link to="/program/messages">
+          <div class="program-nav-line" @click="showBgFun('messages')">企业信息化</div>
+        </router-link>
+      </div>
+      <div class="online-consult">
+         <img src="../assets/online.png"  />
+          <div class="pull-right tel" >
+            <h4>在线咨询</h4>
+            <span>021-51105660</span>
+            <span>newtouch@newtouch.cn</span>
           </div>
+      </div>
       <div class="program-con">
         <router-view></router-view>
       </div>
     </div>
+
   </div>
 </template>
 <script>
@@ -134,7 +143,7 @@
   }
 
   .program .program-con {
-      min-height: 430px;
+      min-height: 520px;
       float: left;
       width: 930px;
       margin-left: 20px;
@@ -160,5 +169,31 @@
     float: right;
   }
 
+  .online-consult{
+    top: 650px;
+    left: 55px;
+    position: absolute;
+    width: 260px;
+  }
+
+  .online-consult img{
+    width: 90px;
+    margin-right: 5px;
+  }
+
+  .online-consult .tel{
+    width: 62%;
+    padding: 5px 0px 0px 5px;
+  }
+
+  .online-consult .tel h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .online-consult .tel span{
+    padding-bottom: 5px;
+  }
 
 </style>
