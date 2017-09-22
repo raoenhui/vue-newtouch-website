@@ -1,7 +1,10 @@
-body{
-  background: #f4f4f4 !important;
-  font-family: PingFangSC-Regular, Microsoft Yahei, 微软雅黑 !important;
+@import "./Default";
+
+body {
+  background: $grey !important;
+  font-family: $font-family !important;
 }
+
 .clearfix:after {
   display: block;
   clear: both;
@@ -13,17 +16,21 @@ body{
 .clearfix {
   zoom: 1
 }
-.lf{
+
+.lf {
   float: left;
 }
-.rf{
+
+.rf {
   float: right;
 }
-.content{
+
+.content {
   width: 1200px;
   margin: 0 auto;
 }
-.contentMin{
+
+.contentMin {
   width: 1000px;
   margin: 0 auto;
 }
@@ -32,18 +39,14 @@ body{
   width: 1000px;
   margin: 0 auto;
 }
-.marginCenter{
+
+.marginCenter {
   margin: 0 auto;
 }
 
-a,a:link,a:visited ,a:hover,a:active{
+a, a:link, a:visited, a:hover, a:active {
   text-decoration: none !important;
 }
-
-
-/**:focus {*/
-  /*outline: 0 !important;*/
-/*}*/
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -55,10 +58,11 @@ ul {
   padding: 0;
 }
 
-ul li{
-  list-style:none;
+ul li {
+  list-style: none;
 }
-.padding-top-30{
+
+.padding-top-30 {
   padding-top: 30px;
 }
 

@@ -144,6 +144,7 @@
     background: #343434;
   }
   .program .programBg .programBg-lf{
+    margin-left: 60px;
     float: left;
     color: #fff;
   }

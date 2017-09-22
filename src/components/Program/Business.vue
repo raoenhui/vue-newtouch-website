@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import ProgramItem from '../Common/Program/Item.vue'
+  import ProgramItem from 'src/components/Common/Program/Item.vue'
   export default {
     data () {
       return {

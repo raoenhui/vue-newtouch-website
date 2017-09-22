@@ -1,0 +1,51 @@
+@import 'src/scss/Default';
+
+.programItem {
+  & {
+    background: $white;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    border: solid 1px $white;
+  }
+  &:hover {
+    border: solid 1px $blue;
+    -webkit-box-shadow: 0 0 20px $blue;
+    box-shadow: 0 0 20px $blue;
+  }
+  &:hover .programItem-lf {
+    color: #00bfff;
+  }
+  .programItem-lf {
+    font-size: 100px;
+    float: left;
+    width: 240px;
+    text-align: center;
+  }
+
+  .programItem-rf {
+    float: left;
+    width: 533px;
+  }
+
+  .programItem-rf h3 {
+    margin-bottom: 20px;
+  }
+
+  .programItem-btn a {
+    width: 100px;
+    line-height: 40px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .programItem-btn a:nth-child(1) {
+    background: #00bfff;
+    margin-right: 20px;
+  }
+
+  .programItem-btn a:nth-child(2) {
+    background: #b5c5c6;
+  }
+}

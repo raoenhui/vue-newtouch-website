@@ -128,7 +128,6 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .total-container h4 {
     margin: 0 !important;
