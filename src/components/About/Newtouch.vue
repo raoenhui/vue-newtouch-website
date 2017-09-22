@@ -68,100 +68,11 @@
               </li>
             </ul>
           </article>
-
         </div>
         <div class="tab-pane-con-tab hide">
           <div class="contentMin">
-            <div class="row ">
-            <div class="col-md-6">
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-tit">|&nbsp;&nbsp;公司总部&nbsp;&nbsp;|</div>
-                <div class="aboutNewtouch-addressDiv-link">上海新致软件股份有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：上海市浦东新区峨山路91弄98号陆家嘴软件园1号楼4F-6F</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
-                <div class="aboutNewtouch-addressDiv-con">邮件：newtouch@newtouch.cn</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-tit">|&nbsp;&nbsp;分支机构&nbsp;&nbsp;|</div>
-                <div class="aboutNewtouch-addressDiv-link">上海新逸科技有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：上海市徐汇区田林路200号C幢206室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">上海新致仕海软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：中国（上海）自由贸易试验区乳山路227号2楼B区231室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">上海新致信息技术有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：中国（上海）自由贸易试验区华申路198号一幢楼六层E-03室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">大连新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：大连软件园东路21号12号楼301C室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：0411-84768350；0411-84768351；0411-84768331</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：0411-84768350-815</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：116023</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">大连亿蓝德信息科技有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：大连软件园东路21号12号楼301C室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：0411-84768350；0411-84768351；0411-84768331</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：0411-84768350-815</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：116023</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">西安新致信息技术有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：西安市高新区科技二路68号西安软件园秦风阁综合楼601室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：029-87669728；029-81779891</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：029-87669727</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：710075</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">深圳新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：深圳市福田区福田街道金田路4018号安联大厦26层2629室</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：0755-33955890</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：0755-33955890</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：518026</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">新致软件（昆山）有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：花桥镇兆丰路8号</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：021-51105660</div>
-                <div class="aboutNewtouch-addressDiv-con">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：200127</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">成都新致软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：成都市高新区科园二路10号2栋2单元10层2A号</div>
-                <div class="aboutNewtouch-addressDiv-con">联系电话：028-83378392</div>
-                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">成都新致远日软件有限公司&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：成都市高新区科园二路10号2栋2单元10层2A号</div>
-                <div class="aboutNewtouch-addressDiv-con">联系电话：028-83378392</div>
-                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
-              </div>
-              <div class="aboutNewtouch-addressDiv">
-                <div class="aboutNewtouch-addressDiv-link">日本东京newtouch株式会社&nbsp;&nbsp; <span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span></div>
-                <div class="aboutNewtouch-addressDiv-con">地址：东京都品川区南品川二丁目2番13号</div>
-                <div class="aboutNewtouch-addressDiv-con">电话：（03）6433-2998</div>
-                <div class="aboutNewtouch-addressDiv-con" style="display: none;">传真：021-51105667</div>
-                <div class="aboutNewtouch-addressDiv-con">邮编：610093</div>
-              </div>
-            </div>
+            <div class="row">
+            <div class="col-md-6"><newtouchItem :addressObj="addressObj" v-for="(addressObj,index) in datas" :key="index" /></div>
             <div class="col-md-6">
               <img src="../../assets/about/newtouch-map.png"/>
             </div>
@@ -611,6 +522,7 @@
 
 <script>
   //  import {MP} from './map.js'
+  import NewtouchItem from 'src/components/Common/About/NewtouchItem.vue'
   export default {
     name: 'newtouch',
     data () {
@@ -619,6 +531,144 @@
         isShow1:false,
         certificateImg:'',
         certificateImg1:'',
+        datas: [
+          {
+          addressDivTitTotle:'公司总部',
+          addressDivTit:'',
+          addressDivName:'上海新致软件股份有限公司',
+          addressDivLink: '上海市浦东新区峨山路91弄98号陆家嘴软件园1号楼4F-6F',
+          addressDivTel: '021-51105660',
+          addressDivFax:'021-51105667',
+          addressDivPostcode:'200127',
+          addressDivMail:'newtouch@newtouch.cn',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'分支机构',
+          addressDivName:'上海新逸科技有限公司',
+          addressDivLink: '上海市徐汇区田林路200号C幢206室',
+          addressDivTel: '021-51105660 ',
+          addressDivFax:'021-51105667',
+          addressDivPostcode:'200127',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'上海新致仕海软件有限公司',
+          addressDivLink: '中国（上海）自由贸易试验区乳山路227号2楼B区231室',
+          addressDivTel: '021-51105660',
+          addressDivFax:'021-51105667',
+          addressDivPostcode:'200127',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'上海新致信息技术有限公司',
+          addressDivLink: '中国（上海）自由贸易试验区华申路198号一幢楼六层E-03室',
+          addressDivTel: '021-51105660',
+          addressDivFax:'021-51105667',
+          addressDivPostcode:'200127',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'北京新致君阳信息技术有限公司',
+          addressDivLink: '北京市丰台区丰台北路18号恒泰中心A座8楼',
+          addressDivTel: '010-83733921-8008',
+          addressDivFax:'',
+          addressDivPostcode:'100035',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'大连新致软件有限公司',
+          addressDivLink: '大连软件园东路21号12号楼301C室',
+          addressDivTel: '0411-84768350；0411-84768351；0411-84768331',
+          addressDivFax:'0411-84768350-815',
+          addressDivPostcode:'116023',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'大连亿蓝德信息科技有限公司',
+          addressDivLink: '大连软件园东路21号12号楼301C室',
+          addressDivTel: '0411-84768350；0411-84768351；0411-84768331',
+          addressDivFax:'0411-84768350-815',
+          addressDivPostcode:'116023',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'西安新致信息技术有限公司',
+          addressDivLink: '西安市高新区科技二路68号西安软件园秦风阁综合楼601室',
+          addressDivTel: '029-87669728 029-81779891',
+          addressDivFax:'029-87669727',
+          addressDivPostcode:'710075',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'深圳新致软件有限公司',
+          addressDivLink: '深圳市福田区福田街道金田路4018号安联大厦26层2629室',
+          addressDivTel: '0755-33955890',
+          addressDivFax:'0755-33955890',
+          addressDivPostcode:'518026',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'新致软件（昆山）有限公司',
+          addressDivLink: '花桥镇兆丰路8号',
+          addressDivTel: '021-51105660',
+          addressDivFax:'021-51105667',
+          addressDivPostcode:'200127',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'成都新致软件有限公司',
+          addressDivLink: '成都市高新区科园二路10号2栋2单元10层2A号',
+          addressDivTel: '028-83378392',
+          addressDivFax:'',
+          addressDivPostcode:'610093',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'成都新致远日软件有限公司',
+          addressDivLink: '成都市高新区科园二路10号2栋2单元10层2A号',
+          addressDivTel: '028-83378392',
+          addressDivFax:'',
+          addressDivPostcode:'610093',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'日本东京newtouch株式会社',
+          addressDivLink: '东京都品川区南品川二丁目2番13号',
+          addressDivTel: '（03）6433-2998 ',
+          addressDivFax:'',
+          addressDivPostcode:'',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'晟欧技术株式会社',
+          addressDivLink: '东京都品川区南品川二丁目2番13号南品川JN大厦2F ',
+          addressDivTel: '（03）6433-1695',
+          addressDivFax:'',
+          addressDivPostcode:'140-0004',
+          addressDivMail:'',
+        }, {
+          addressDivTitTotle:'',
+          addressDivTit:'',
+          addressDivName:'株式会社亿蓝德',
+          addressDivLink: '东京都港区高轮二丁目14番17号Grace高轮大厦7F ',
+          addressDivTel: '（03）5791-5198  ',
+          addressDivFax:'',
+          addressDivPostcode:'',
+          addressDivMail:'',
+        }
+        ]
       }
     },
     methods: {
@@ -661,7 +711,8 @@
             this.certificateImg = require(`../../assets/about/certificate_${path}.jpg`);
           }
       }
-    }
+    },
+    components: {NewtouchItem}
   }
 </script>
 
@@ -741,26 +792,6 @@
 
   /*公司简历 end*/
 
-  /*分支机构start*/
-  .aboutNewtouch .aboutNewtouch-addressDiv {
-    text-align: left;
-    margin-bottom: 20px;
-    line-height: 34px;
-  }
-
-  .aboutNewtouch .aboutNewtouch-addressDiv .aboutNewtouch-addressDiv-tit {
-    font-size: 16px;
-  }
-
-  .aboutNewtouch .aboutNewtouch-addressDiv .aboutNewtouch-addressDiv-link {
-    color: #00BEFF;
-    cursor: pointer;
-  }
-
-  .aboutNewtouch .aboutNewtouch-addressDiv .aboutNewtouch-addressDiv-link span{
-    font-size: 1.7em;
-  }
-  /*分支机构end*/
   /*企业文化start*/
   .aboutNewtouch .aboutNewtouch-coreIdea h2 {
     margin-bottom: 30px;
