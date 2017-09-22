@@ -1,13 +1,5 @@
 <template>
   <div class="total-container">
-    <div class="header-content">
-      <div class="page-local">
-        <a href="">首页</a>/
-        <a href="">新致商城</a>/
-        <a href="">金融云</a>
-      </div>
-    </div>
-
     <div class="main-content clearfix cart">
       <div class="silder-content lf">
         <h4 class="silder-title">新致商城</h4>
@@ -156,22 +148,6 @@
 
   .total-container {
     background-color: #F4f4f4;
-  }
-
-  .header-content {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    background: #ececec;
-  }
-
-  .header-content .page-local {
-    width: 1200px;
-    margin: 0px auto;
-  }
-
-  .header-content .page-local a {
-    padding-right: 10px;
   }
 
   .main-content {

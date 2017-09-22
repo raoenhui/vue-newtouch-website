@@ -2,11 +2,10 @@
   <div class="aboutNewDetail">
     <div class="panel panel-default" style="margin-bottom: 0px;">
       <div class="panel-heading detail-title">
-        <span>2017/07/17&nbsp;18:00</span>
+        <span>2017/06/09&nbsp;18:00</span>
         <nav class="pull-right">
           <ul class="page">
-            <li><a href="#">上一篇</a></li>
-            <li><a href="#">下一篇</a></li>
+            <li><router-link to="../about/NewDetail2">下一篇</router-link></li>
           </ul>
         </nav>
       </div>
@@ -63,9 +62,15 @@
     padding-left: 20px;
   }
 
+  .aboutNewDetail .panel-default>.panel-heading nav .page li a{
+    color:#00beff;
+  }
+
   .aboutNewDetail .panel-default .panel-body{
     padding: 40px 7%;
     margin: 0px auto;
+    font-size: 16px;
+    line-height: 35px;
   }
 
   .aboutNewDetail .panel-default .panel-body h2{

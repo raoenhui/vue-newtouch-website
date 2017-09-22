@@ -1,14 +1,13 @@
 <template>
   <div id="app">
     <header class="header">
-
       <div class="header-con">
         <div class="header-nav clearfix">
           <router-link to="/"><img src="./assets/logo.png"></router-link>
           <router-link to="/program"><div class="header-nav-line">行业解决方案</div></router-link>
-          <div class="header-nav-line"><a href="http://fic.newtouch.com">金融云</a></div>
-          <div class="header-nav-line"><a href="http://mc.newtouch.com/#/-1">医疗云</a></div>
-          <div class="header-nav-line"><a href="http://ecc.newtouch.com/index">企业云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://fic.newtouch.com">金融云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://mc.newtouch.com/#/-1">医疗云</a></div>
+          <div class="header-nav-line"><a target="_blank" href="http://ecc.newtouch.com/index">企业云</a></div>
           <router-link to="/cart"><div class="header-nav-line">
             新致商城
           </div></router-link>
@@ -39,16 +38,12 @@
         <div class="footer-i">
             <div class="pull-left weichat">
               <i class="fa fa-weixin" aria-hidden="true"></i>
-              <span class="arrow-left">
-                <!--向左的三角-->
-              </span>
+              <span class="arrow-left"></span><!--向左的三角-->
               <img src="./assets/weibo2.png" width="100" height="100"/>
             </div>
             <div class="pull-left">
               <i class="fa fa-weibo" aria-hidden="true"></i>
-              <div class="arrow-left">
-                <!--向左的三角-->
-              </div>
+              <span class="arrow-left"></span>
               <img src="./assets/webIcon.png" />
             </div>
         </div>
@@ -69,6 +64,7 @@
 
 <style scoped>
   /*公共css*/
+  @import './css/Icomoon.css';
   @import './css/App.css';
   #app {
     -webkit-font-smoothing: antialiased;
@@ -82,6 +78,7 @@
   .header {
     background: #343434;
     height: 80px;
+    border-bottom: #4e4e4e 1px solid;
   }
 
   .header .header-con {
@@ -163,7 +160,7 @@
   .footer .content .footer-i{
     color: #fff;
     text-align: left;
-    margin-top: 4%;
+    margin-top: 3%;
     float: right;
   }
 

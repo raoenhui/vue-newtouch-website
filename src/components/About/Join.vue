@@ -109,4 +109,8 @@
     .aboutJoin_titleIcon .textContent p{
       margin: 0px;
     }
+
+    .aboutJoin_titleIcon .textContent p a{
+      color: #00beff;
+    }
 </style>
