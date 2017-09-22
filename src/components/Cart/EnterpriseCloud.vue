@@ -110,7 +110,7 @@
   }
 
   .enterpriseCloud .enterpriseCloud_Category .category_more_cat .category_cat{
-    background-color: #4178BE;
+    background-color: #00BEFF;
   }
   .enterpriseCloud .enterpriseCloud_Category .category_more_cat .category_cat span{
     font-size: 1.3em;

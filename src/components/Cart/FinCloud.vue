@@ -315,7 +315,7 @@
    min-height: 66px;
  }
  .finCloud .finCloud_Category .Category_list .finCloudlist .category_more_cat .category_cat{
-    background-color: #4178BE;
+    background-color: #00BEFF;
  }
  .finCloud .finCloud_Category .Category_list .finCloudlist .category_more_cat .category_cat span{
    font-size: 1.3em;
