@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
 import Main from '@/components/Main'
-import Cart from '@/components/Cart'
+const Hello = r => require.ensure([], () => r(require('src/components/Hello')), 'Hello')
+const Cart = r => require.ensure([], () => r(require('src/components/Cart')), 'Cart')
+// import Hello from '@/components/Hello'
+// import Cart from '@/components/Cart'
 import About from '@/components/About'
 import Program from '@/components/Program'
 import Financial from '@/components/Program/Financial'
@@ -53,7 +55,7 @@ import NewDetail5 from '@/components/About/NewDetail5'
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '/',
