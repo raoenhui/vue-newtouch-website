@@ -113,16 +113,16 @@ export default new Router({
       children: [
         {
           path: '/',
-          component: FinCloud
+          redirect: 'finCloud'
         },
         {
-          path:'finCloud',
+          path: 'finCloud',
           component: FinCloud
-        },{
-          path:'medicalCloud',
+        }, {
+          path: 'medicalCloud',
           component: MedicalCloud
-        },{
-          path:'enterPriseCloud',
+        }, {
+          path: 'enterPriseCloud',
           component: EnterPriseCloud
         },
         {
@@ -225,19 +225,19 @@ export default new Router({
         {
           path: '/',
           redirect: 'newtouch'
-        },{
+        }, {
           path: 'newtouch',
           component: Newtouch
-        },{
+        }, {
           path: 'join',
           component: Join
-        },{
+        }, {
           path: 'news',
           component: News
-        },{
+        }, {
           path: 'newDetail1',
           component: NewDetail1
-        },{
+        }, {
           path: 'newDetail2',
           component: NewDetail2
         }, {
@@ -252,7 +252,7 @@ export default new Router({
         }, {
           path: 'contact',
           component: Contact
-        },{
+        }, {
           path: 'support',
           component: Support
         }]

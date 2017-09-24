@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="../../assets/about/contact_map.png"/>
+          <img src="../../assets/about/newtouch-map.png"/>
         </div>
       </div>
     </div>
@@ -28,6 +28,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .contentMin{
+    margin: 50px auto;
+  }
 
   /*分支机构start*/
   .aboutContact .aboutContact-addressDiv {

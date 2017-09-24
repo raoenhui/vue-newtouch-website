@@ -26,7 +26,7 @@ module.exports = {
       '@': resolve('src'),
       'jquery': "jquery/src/jquery",
       'bootstrap':"bootstrap/dist",
-      // 'jquery': path.resolve(__dirname, '../node_modules/jquery/src/jquery'),
+      'src': path.resolve(__dirname, '../src')
     }
   },
   module: {
