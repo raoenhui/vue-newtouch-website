@@ -53,6 +53,7 @@ import NewDetail5 from '@/components/About/NewDetail5'
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -255,6 +256,7 @@ export default new Router({
           path: 'support',
           component: Support
         }]
-    }
+    },
+    {path: '*', component: Main, name: 'notfound'}
   ]
 })
