@@ -42,5 +42,5 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "src/components/cart";
+  @import "src/components/Cart";
 </style>
