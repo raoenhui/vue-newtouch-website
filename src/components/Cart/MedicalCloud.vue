@@ -139,7 +139,7 @@
         <div class="col-md-6" style="padding: 5px 5px 20px;">
           <div class="medicalCloudlist">
             <div class="Category_msg">
-              <img src="../../assets/cart/privateCloud.png" style="width:15%;"/>
+              <img src="src/assets/cart/privateCloud.png" style="width:15%;"/>
               <h3>私有云</h3>
               <p>以OpenStack为云管理平台，以Hypervisor KVM为虚拟化引擎，以CEPH分布式存储为存储集群为医疗行业提供私有云解决方案，提供各类计算服务、资源和管理系统，并帮助医疗卫生机构和医院实现数据高安全性，充分利用现有硬件资源和软件资源，保证服务质量。</p>
             </div>
