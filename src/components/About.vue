@@ -106,6 +106,7 @@
   .about .about-nav .router-link-active .about-nav-line {
     background: #00beff;
   }
+
   .about .about-nav .about-nav-line {
     line-height: 42px;
     margin: 0px;
@@ -145,6 +146,9 @@
     color: #000;
   }
 
+  .carousel-inner img {
+    min-height: 245px;
+  }
 
 </style>
 
