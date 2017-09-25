@@ -1,7 +1,7 @@
 <template>
   <div class="privateCloud clearfix">
     <div class="content_title pull-left">
-      <img src="src/assets/cart/PrivateCloud.png" class="pull-left"/>
+      <img src="src/assets/cart/privateCloud.png" class="pull-left"/>
       <h4 class="pull-left" style="margin-top: 35px; position:relative;padding-left: 5px;" >
         私有云
       </h4>

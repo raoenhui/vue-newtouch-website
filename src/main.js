@@ -1,5 +1,6 @@
 import 'bootstrap/css/bootstrap.min.css'
 import "font-awesome/css/font-awesome.css";
+import "babel-polyfill";
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
