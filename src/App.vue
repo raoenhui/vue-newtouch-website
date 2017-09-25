@@ -57,8 +57,15 @@
 
 
 <script>
+  import {getCarouselList} from 'src/service/handleData'
+
   export default {
-    name: 'app'
+    name: 'app',
+    mounted: function () {
+      getCarouselList().then(res => {
+        console.info(res)
+      })
+    }
   }
 </script>
 

@@ -5,6 +5,7 @@ const Hello = r => require.ensure([], () => r(require('src/components/Hello')), 
 const Program = r => require.ensure([], () => r(require('src/components/Program')), 'Program')
 const Cart = r => require.ensure([], () => r(require('src/components/Cart')), 'Cart')
 const About = r => require.ensure([], () => r(require('src/components/About')), 'About')
+const Login = r => require.ensure([], () => r(require('src/components/Login')), 'Login')
 import Financial from '@/components/Program/Financial'
 import Telecom from '@/components/Program/Telecom'
 import Government from '@/components/Program/Government'
@@ -59,6 +60,10 @@ export default new Router({
       path: '/',
       name: 'Main',
       component: Main
+    }, {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/program',
