@@ -27,7 +27,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .contentMin{
     margin: 50px auto;
   }
@@ -38,16 +38,15 @@
     margin-bottom: 20px;
     line-height: 34px;
     margin-top:20%;
+    .aboutContact-addressDiv-link {
+      color: #343434;
+      cursor: pointer;
+      margin-bottom: 40px;
+    }
   }
 
   .aboutContact-addressDiv-con{
     font-size: 16px;
-  }
-
-  .aboutContact .aboutContact-addressDiv .aboutContact-addressDiv-link {
-    color: #343434;
-    cursor: pointer;
-    margin-bottom: 40px;
   }
 
   /*分支机构end*/

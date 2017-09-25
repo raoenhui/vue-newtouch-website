@@ -54,24 +54,25 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+  @import "src/scss/Default";
     .aboutJoin{
       margin: 0 auto;
-      background-color: #f4f4f4;
+      background-color: $grey;
       padding: 60px 0px;
 
     }
 
     .contentMin {
-      width:1030px;margin:0px auto;
+      width:1030px;
+      margin:0px auto;
     }
 
     .aboutJoin_part .aboutJoin_titleIcon{
       position: relative;
-    }
-
-    .aboutJoin_part .aboutJoin_titleIcon img{
-      margin-bottom: 20px;
+      img{
+        margin-bottom: 20px;
+      }
     }
 
     .aboutJoin_part .aboutJoin_title {
@@ -80,37 +81,33 @@
       bottom: 0;
       right: 0;
       display: block;
-    }
-
-    .aboutJoin_part .aboutJoin_title p{
-      height: 1px;
-      background-color: rgb(20, 51, 93);
-      width: 135px;
-      display: inline-block;
-      margin-right: -106px;
-    }
-
-    .aboutJoin_part .aboutJoin_title h4{
-      top: -4px;
-      background: #f4f4f4;
-      position: relative;
-      width: 101px;
-      display: inline-block;
-      left: -17px;
-      margin-bottom: 30px;
-      font-weight: 600;
+      p{
+        height: 1px;
+        background-color: rgb(20, 51, 93);
+        width: 135px;
+        display: inline-block;
+        margin-right: -106px;
+      }
+      h4{
+        top: -4px;
+        background: $grey;
+        position: relative;
+        width: 101px;
+        display: inline-block;
+        left: -17px;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
     }
 
     .aboutJoin_titleIcon .textContent{
       text-align: left!important;
       margin-bottom: 20px;
-    }
-
-    .aboutJoin_titleIcon .textContent p{
-      margin: 0px;
-    }
-
-    .aboutJoin_titleIcon .textContent p a{
-      color: #00beff;
+      p{
+        margin: 0px;
+        a{
+          color: $blue;
+        }
+      }
     }
 </style>

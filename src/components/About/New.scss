@@ -1,0 +1,88 @@
+@import "src/scss/Default";
+
+/*企业动态*/
+.aboutNews{
+  text-align: left!important;
+  .news-content{
+    background: #E0E0E0;
+    padding-bottom: 30px;
+  }
+  .panel{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding: 20px 10px;
+  }
+  .news a{
+    color:#23527c;
+  }
+  .news:hover{
+    cursor: pointer;
+    border:solid 1px $blue;
+    box-shadow: 0 0 15px $blue;
+  }
+  .panel-body h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #202020;
+  }
+  .panel-body span{
+    color:#9f9f9f;
+  }
+  .month_day{
+    font-size: 2.7em;
+    width: 100%;
+    text-align:right ;
+  }
+  .year{
+    font-size: 1.3em;
+    width:100%;
+    text-align: right;
+  }
+}
+
+/**公司动态详情**/
+.aboutNewDetail{
+  padding: 30px 150px;
+}
+
+  .aboutNewDetail .panel-default>.panel-heading{
+    padding-left: 7%;
+    padding-right:7%;
+    text-align: left !important;
+    span{
+      color: #959595;
+    }
+    nav .page li{
+      float: left;
+      padding-left: 20px;
+    }
+    nav .page li a{
+      color:$blue;
+    }
+}
+
+  .aboutNewDetail .panel-default {
+    .panel-body{
+      padding: 40px 7%;
+      margin: 0px auto;
+      font-size: 16px;
+      line-height: 35px;
+      h2{
+        padding-bottom: 30px;
+      }
+      p{
+        text-align: left!important;
+        margin: 0px auto;
+        text-indent: 2em;
+      }
+      img{
+        width: 70%;
+        margin: 15px 10%;
+      }
+      span{
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }

@@ -18,7 +18,7 @@
           <router-link to="/about/newtouch">
             <div class="about-nav-line" @click="showBgFun('newtouch')">日新以致远</div>
           </router-link>
-          <router-link to="/about/news">
+          <router-link to="/about/news" v-bind:class="{ 'router-link-active': showNewActive }">
             <div class="about-nav-line" @click="showBgFun('news')">企业动态</div>
           </router-link>
           <router-link to="/about/support">
@@ -58,7 +58,9 @@
         //背景图片
         srcBg: require('../assets/about/newtouch_bg.png'),
         //背景文字
-        srcTit: ''
+        srcTit: '',
+        //企业动态是否选中
+        showNewActive:false
       }
     },
     methods: {
@@ -68,13 +70,18 @@
       }
     },
     mounted: function () {
-
       var path = this.$route.path.split('/')[2];
-      if (path) {
+      if(!path) return;
+      if(path.includes('newDetail')){
+        this.showNewActive=path.includes('newDetail')||(path==='news')
+      }else{
         this.srcBg = require(`../assets/about/${path}_bg.png`);
         this.srcTit = InfoObj[path];
-
       }
+    },
+    updated:function(){
+      var path = this.$route.path.split('/')[2];
+      this.showNewActive=path.includes('newDetail')||(path==='news');
     }
   }
 </script>

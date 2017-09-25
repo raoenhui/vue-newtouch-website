@@ -31,45 +31,6 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  .aboutNewDetail {
-    padding: 30px 150px;
-  }
-
-  .aboutNewDetail .panel-default > .panel-heading {
-    padding-left: 7%;
-    padding-right: 7%;
-    text-align: left !important;
-  }
-
-  .aboutNewDetail .panel-default > .panel-heading span {
-    color: #959595;
-  }
-
-  .aboutNewDetail .panel-default > .panel-heading nav .page li {
-    float: left;
-    padding-left: 20px;
-  }
-
-  .aboutNewDetail .panel-default .panel-body {
-    padding: 40px 7%;
-    margin: 0px auto;
-    font-size: 16px;
-    line-height: 35px;
-  }
-
-  .aboutNewDetail .panel-default .panel-body h2 {
-    padding-bottom: 30px;
-  }
-
-  .aboutNewDetail .panel-default .panel-body p {
-    text-align: left !important;
-    margin: 0px auto;
-    text-indent: 2em;
-  }
-
-  .aboutNewDetail .panel-default .panel-body img {
-    width: 70%;
-    margin: 20px;
-  }
+<style lang="scss" scoped>
+  @import "New";
 </style>
