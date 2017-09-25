@@ -1,13 +1,15 @@
 <template>
+
   <form class="form-horizontal" role="form" style="width: 500px;margin: 0 auto;">
+    <counter></counter>
     <div class="form-group">
-      <label class="col-sm-2 control-label">用户名</label>
+      <label class="col-sm-2 control-label" @click="increment(2)">用户名</label>
       <div class="col-sm-10">
         <input type="text" class="form-control" placeholder="请输入用户名" v-model.lazy="userAccount">
       </div>
     </div>
     <div class="form-group">
-      <label class="col-sm-2 control-label">密码</label>
+      <label class="col-sm-2 control-label" @click="decrement">密码</label>
       <div class="col-sm-10">
         <input type="text" class="form-control" placeholder="密码" v-model="passWord">
       </div>
@@ -36,7 +38,9 @@
 </template>
 
 <script>
+  import { mapMutations } from 'vuex'
   import {accountLogin} from 'src/service/handleData'
+  import Counter from 'src/components/Common/Login/Counter'
   export default {
     name: 'login',
     data () {
@@ -61,8 +65,19 @@
         }
         //用户名登录
 //        this.userInfo = await accountLogin(this.userAccount, this.passWord, this.codeNumber);
+      },
+//      increment(){
+//        this.$store.commit('increment',2)
+//      },
+      ...mapMutations([
+        'increment'
+      ]),
+      decrement(){
+//        this.$store.commit({type:'decrement',count:1})
+        this.$store.dispatch({type:'decrement',count:1})
       }
-    }
+    },
+    components: { Counter }
   }
 </script>
 
